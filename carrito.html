@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+
+    <link rel="shortcut icon" href="iconos/bicicleta.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/carrito.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RunBike - carrito </title>
+</head>
+<body>
+    <nav>  
+        <h2>Run<span>Bike</span></h2>
+
+        <ul>
+            <li><a href="index.html">inicio</a></li>
+            <li><a href="ofertas.html">ofertas</a></li>
+            <li><a href="repuestos.html">repuestos</a></li>
+            <li><a href="nosotros.html">nosotros</a></li>
+        </ul>
+
+        <div class="btns_menu">
+            <a href="carrito.html">
+                <figure>
+                    <span class="count_list">0</span>
+                    <img src="iconos/carrito-de-compras.png" alt="" title="carrito de compras">
+                </figure>
+            </a>
+            
+           
+            
+        
+        </div>    
+
+        <label class="hamburger">
+            <input type="checkbox" onclick="Open_and_Close_menu_lateral(checked)">
+            <svg viewBox="0 0 32 32">
+                <path class="line line-top-bottom" d="M27 10 13 10C10.8 10 9 8.2 9 6 9 3.5 10.8 2 13 2 15.2 2 17 3.8 17 6L17 26C17 28.2 18.8 30 21 30 23.2 30 25 28.2 25 26 25 23.8 23.2 22 21 22L7 22"></path>
+                <path class="line" d="M7 16 27 16"></path>
+            </svg>
+        </label>        
+    </nav>
+ 
+    <div class="menu_desplegable">
+        <div class="container_menu_desplegable">
+            <ul>
+                    <li>
+                        <img src="iconos/hogar.png" alt="">
+                        <a href="index.html">
+                            Inicio
+                        </a>
+                    </li>
+               
+               
+                    <li>
+                        <img src="iconos/etiqueta-de-precio.png" alt="">
+                        <a href="ofertas.html">
+                            Ofertas
+                        </a>
+                    </li>
+
+               
+                    <li>
+                        <img src="iconos/herramienta-de-reparacion.png" alt="">
+                        <a href="repuestos.html">
+                            Repuestos
+                        </a>
+                    </li>
+
+               
+                    <li>
+                        <img src="iconos/grupo.png" alt="">
+                        <a href="nosotros.html">
+                            Nosotros
+                        </a>
+                    </li>
+
+                
+                    <li>
+                        <img src="iconos/icon_usuario_menu_lateral.png" alt="">
+                        <a href="perfil.html">
+                            Perfil
+                        </a>
+                    </li>
+            </ul>
+        </div>    
+    </div>
+
+    <div class="container_detalleOferta">
+        <div class="contenido_detalles">
+            <div class="close" title="cerrar ventana" onclick="cerrar_detalle_oferta()"><h3>X</h3></div>
+
+            <img class="img_detalle" src="img/4260524471274_1-removebg-preview.png" alt="">
+            <div class="detalles">
+                <label>Modelo:</label>
+                <h3 class="modelo_detalle">Bicicleta modelo Clasico F-122</h3>
+                <label>Description:</label>
+                <p class="description_detalle">
+                    Buscamos no solo vender productos, sino también inspirar una conexión más profunda con
+                    la emoción y la libertad que el ciclismo puede brindar. Además, nos esforzamos por 
+                    crear una comunidad de ciclistas apasionados al organizar eventos
+                </p>
+                <label>marca:</label>
+                <h4 class="marca_detalle">raicin bition</h4>
+
+                <label>Categoria:</label>
+                <h4 class="categoria_detalle">urbana</h4>
+                <label>Cantidad selecionada:</label>
+                <h4> <label class="unidades_detalle">0</label> <label>unidades</label></h4>
+
+                <span>Precio:<label class="precio_detalle">17,870</label></span>
+
+                <button class="id_item" name="" onclick="delete_item(name)">
+                    eliminar del carrito
+                    <img src="iconos/borrar.png" alt="">
+                </button>
+            </div>
+
+        </div>
+    </div>
+
+    <header>
+        <h1>Carrito de compras</h1>
+        <ul class="circles">
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+    </ul>
+    </header>
+
+    <h3 class="encabezado">Articulos selecionados</h3>
+
+    <div class="contenedor_elemento_carrito">
+        
+        <section class="productos">
+            <div class="contenedor_item">
+    
+              
+
+            </div>
+    
+        </section>
+
+        
+        <section class="metodo_pago">
+            <h3>Detalles del pedido</h3>
+            <div class="card_pago">
+                <h3>Total: <span class="total_pago_compra"></span></h3>
+                <br>
+                <label>datos de la tarjeta</label>
+                <br><br>
+                <select class="tipo_targeta" name="" id="" >
+                    <option value="credito">tipo</option>
+                    <option value="credito">credito</option>
+                    <option value="debito">debito</option>
+                </select>
+                <br>
+                <div class="input-box numero_targeta">
+                    <input required="" type="number" class="input">
+                    <label class="label text--flicking">numero tarjeta<sup>*</sup></label>
+                </div>
+                <br>
+                <div class="input-box data_input fecha_vencimineto">
+                    <input required="" type="date"  class="input">
+                    <label class="label text--flicking">fecha vencimiento<sup>*</sup></label>
+                </div>
+                <br>
+                <label>CV</label>
+                <div class="clave_3_numeros">
+                    <input type="text" name="text" class="input">
+                    <input type="text" name="text" class="input">
+                    <input type="text" name="text" class="input">
+                </div>
+                <button onclick="metodo_pago()" >realizar pedido</button>
+            </div>
+        </section>
+    </div>
+    
+
+
+
+    <footer>
+        <div class="informaciones">
+            <h2>Run<span>Bike</span></h2>
+            <p>
+                RunBike es una apasionante empresa dedicada a la venta de bicicletas y piezas de alta calidad, 
+                enfocada en proporcionar a nuestros clientes una experiencia excepcional en el mundo del ciclismo.
+            </p>
+            <div class="redes">
+                <img src="iconos/icono_facebook.png" alt="">
+                <img src="iconos/instagram.png" alt="">
+                <img src="iconos/logotipo-de-pinterest.png" alt="">
+            </div>
+        </div>
+
+        <div class="enlaces">
+            <ul class="mapaWeb">
+                <li>Mapa del sitio</li>
+                <hr>
+                <li><a href="">Inicio</a></li>
+                <li><a href="">Ofertas</a></li>
+                <li><a href="">Repuestos</a></li>
+                <li><a href="">Nosotros</a></li>
+            </ul>
+            <ul class="servicio">
+                <li>Servicio</li>
+                <hr>
+                <li>Servicio al cliente</li>
+                <li>Envios nacionales</li>
+                <li>Devoluciones</li>
+            </ul>
+            <ul class="contacto">
+                <li>Contactos</li>
+                <hr>
+                <li><img src="iconos/telefono.png" alt=""> <span>809-0000-000</span></li>
+                <li><img src="iconos/correo-electronico.png" alt=""><span>info@runbike.com</span></li>
+            </ul>
+        </div>  
+      </footer>
+
+      <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+
+    <script src="js/page_carrito.js"></script>
+    <script src="js/carrito.js"></script>
+    <script src="js/index.js"></script>
+</body>
+</html>

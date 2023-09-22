@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <!--estilos de alerta de eventos-->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="shortcut icon" href="iconos/bicicleta.ico" type="image/x-icon">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RunBike</title>
+</head>
+<body>
+    <nav>  
+        <h2>Run<span>Bike</span></h2>
+
+        <ul>
+            <li><a href="index.html">inicio</a></li>
+            <li><a href="ofertas.html">ofertas</a></li>
+            <li><a href="repuestos.html">repuestos</a></li>
+            <li><a href="nosotros.html">nosotros</a></li>
+        </ul>
+
+        <div class="btns_menu">
+            <a href="carrito.html">
+                <figure>
+                    <span class="count_list">0</span>
+                    <img src="iconos/carrito-de-compras.png" alt="" title="carrito de compras">
+                </figure>
+            </a>
+           
+        
+        </div>    
+
+        <label class="hamburger">
+            <input type="checkbox" onclick="Open_and_Close_menu_lateral(checked)">
+            <svg viewBox="0 0 32 32">
+                <path class="line line-top-bottom" d="M27 10 13 10C10.8 10 9 8.2 9 6 9 3.5 10.8 2 13 2 15.2 2 17 3.8 17 6L17 26C17 28.2 18.8 30 21 30 23.2 30 25 28.2 25 26 25 23.8 23.2 22 21 22L7 22"></path>
+                <path class="line" d="M7 16 27 16"></path>
+            </svg>
+        </label>
+    </nav>
+
+    <div class="menu_desplegable">
+        <div class="container_menu_desplegable">
+            <ul>
+                    <li>
+                        <img src="iconos/hogar.png" alt="">
+                        <a href="index.html">
+                            Inicio
+                        </a>
+                    </li>
+               
+               
+                    <li>
+                        <img src="iconos/etiqueta-de-precio.png" alt="">
+                        <a href="ofertas.html">
+                            Ofertas
+                        </a>
+                    </li>
+
+               
+                    <li>
+                        <img src="iconos/herramienta-de-reparacion.png" alt="">
+                        <a href="repuestos.html">
+                            Repuestos
+                        </a>
+                    </li>
+
+               
+                    <li>
+                        <img src="iconos/grupo.png" alt="">
+                        <a href="nosotros.html">
+                            Nosotros
+                        </a>
+                    </li>
+
+                
+                   
+            </ul>
+        </div>    
+    </div>
+
+    <div class="container_detalleOferta">
+        <div class="contenido_detalles">
+            <div class="close" title="cerrar ventana" onclick="cerrar_detalle_oferta()"><h3>X</h3></div>
+
+            <img class="img_detalles_item" src="img/4260524471274_1-removebg-preview.png" alt="">
+            <div class="detalles">
+                <label>Modelo:</label>
+                <h3 class="detalles_modelo">Bicicleta modelo Clasico F-122</h3>
+                <label>Description:</label>
+                <p class="detalles_description">
+                    Buscamos no solo vender productos, sino también inspirar una conexión más profunda con
+                    la emoción y la libertad que el ciclismo puede brindar. Además, nos esforzamos por 
+                    crear una comunidad de ciclistas apasionados al organizar eventos
+                </p>
+                <label>marca:</label>
+                <h4 class="detalles_marca">raicin bition</h4>
+
+                <label>Categoria:</label>
+                <h4 class="detalles_categoria">urbana</h4>
+
+                <span>Precio:<label class="detalles_precio">17,870</label></span>
+
+                <button class="id_detalle_producto" id="" onclick="crear_articulo(id)" >
+                    añadir a carrito
+                    <img src="iconos/anadir-al-carrito.png" alt="">
+                </button>
+            </div>
+
+        </div>
+    </div>
+
+    <header>
+        <h1>Tu paraíso sobre ruedas!</h1>
+        <h3> Bienvenido a RunBike, donde la pasión por las bicicletas cobra vida</h3>
+        <p>
+            Desde bicicletas de montaña de alta gama hasta elegantes bicicletas
+            urbanas nuestro extenso catálogo te brinda las mejores opciones.
+            Descubre una forma única de disfrutar la libertad y la emoción que 
+            solo las bicicletas pueden brindar
+        </p>
+        <!-- boton interativo  -->
+        <a href="ofertas.html">
+            <button class="cta">
+                <span>¡Tu gran escapada comienza aquí! </span>
+                <svg viewBox="0 0 13 10" height="10px" width="15px">
+                  <path d="M1,5 L11,5"></path>
+                  <polyline points="8 1 12 5 8 9"></polyline>
+                </svg>
+              </button>
+        </a>
+        
+          <!-- animacion de bicicletas -->
+          <div class="animacion_header">
+          </div>
+        
+      
+    </header>
+    <!-- forma geometrica -->
+    
+        <svg xmlns="http://www.w3.org/2000/svg" width="800" height="800" viewBox="0 0 1058.795 1056.619">
+            <path id="Trazado_1" data-name="Trazado 1" d="M372.308,35.947c123.787,0,296.328-74.807,368.966,4.738C796.933,101.637,792,269.149,792,354c0,195.509-177.3,354-396,354S0,549.509,0,354C0,237.086,32.588,115.842,130.38,51.348,196.04,8.045,284.388,35.947,372.308,35.947Z" transform="matrix(0.719, -0.695, 0.695, 0.719, -2.82, 547.327)" fill="#e9b17d"/>
+        </svg>
+  
+    
+
+    <section class="ofertas">
+        <h2> <span>Ofertas</span> destacadas</h2>
+        <h3>Estas son las ofertas mas destacadas y ofertas de temporada</h3>
+        <div class="container">
+            <button class="btn_desplazamiento"  id="move_left" onclick="mover_slider(id)">
+                <img src="iconos/flecha.png" alt="" srcset="">
+            </button>
+
+            <button class="btn_desplazamiento" id="move_right" onclick="mover_slider(id)">
+                <img src="iconos/flecha.png" alt="" srcset="">
+            </button>
+
+            <div class="desplazamiento_ejeX">
+            <div class="card_oferta" >
+                <img loading="lazy" src="https://res.cloudinary.com/cede-o/image/upload/v1691246272/web%20bicicle/bicicletas/bicicletas%20de%20monta%C3%B1a/bicicleta_monta%C3%B1a_13_jguihv.png" alt="">
+                <h3>RockyTrail R450</h3>
+                <span>Precio: <label>12,600</label></span>
+                <br>
+                <button class="btn_oferta_informacion" id="1" onclick="abrir_Detalle_oferta(id)">ver mas</button>
+                <button onclick="crear_articulo(1)" class="btn_oferta_agregar"  >
+                    añadir a carrito
+                    <img src="iconos/anadir-al-carrito.png" >
+                </button>
+            </div>
+
+            <div class="card_oferta" >
+                <img loading="lazy" height="70%" style="object-fit: cover;" src="https://res.cloudinary.com/cede-o/image/upload/v1691248482/web%20bicicle/bicicletas/bicicletas%20profesionales/bicicleta_profesionales_11_axnvir.png" alt="">
+                <h3>XLRace X500</h3>
+                <span>Precio: <label>18,900</label></span>
+                <br>
+                <button class="btn_oferta_informacion" id="20" onclick="abrir_Detalle_oferta(id)">ver mas</button>
+                <button onclick="crear_articulo(20)" class="btn_oferta_agregar">
+                    añadir a carrito
+                    <img src="iconos/anadir-al-carrito.png" >
+                </button>
+            </div>
+
+            <div class="card_oferta">
+                <img loading="lazy" src="https://res.cloudinary.com/cede-o/image/upload/v1691249675/web%20bicicle/bicicletas/bicicletas%20el%C3%A9ctricas/bicicleta_electricas_13_uhdwbc.png" alt="">
+                <h3>EvoCargo E750</h3>
+                <span>Precio: <label>60,000</label></span>
+                <br>
+                <button class="btn_oferta_informacion" id="36" onclick="abrir_Detalle_oferta(id)">ver mas</button>
+                <button onclick="crear_articulo(36)" class="btn_oferta_agregar">
+                    añadir a carrito
+                    <img src="iconos/anadir-al-carrito.png" >
+                </button>
+            </div>
+
+            <div class="card_oferta">
+                <img loading="lazy" height="70%"  src="https://res.cloudinary.com/cede-o/image/upload/v1691249675/web%20bicicle/bicicletas/bicicletas%20el%C3%A9ctricas/bicicleta_electricas_7_lgpeyg.png" alt="">
+                <h3>Speedster S500</h3>
+                <span>Precio: <label>54,500</label></span>
+                <br>
+                <button class="btn_oferta_informacion" id="37" onclick="abrir_Detalle_oferta(id)">ver mas</button>
+                <button onclick="crear_articulo(37)"  class="btn_oferta_agregar">
+                    añadir a carrito
+                    <img src="iconos/anadir-al-carrito.png" >
+                </button>
+            </div>
+
+            <div class="card_oferta">
+                <img loading="lazy"  src="https://res.cloudinary.com/cede-o/image/upload/v1691249675/web%20bicicle/bicicletas/bicicletas%20el%C3%A9ctricas/bicicleta_electricas_10_yg7yv0.png" alt="">
+                <h3>MountainSpark M800</h3>
+                <span>Precio: <label>23,900</label></span>
+                <br>
+                <button class="btn_oferta_informacion" id="38" onclick="abrir_Detalle_oferta(id)">ver mas</button>
+                <button onclick="crear_articulo(38)" class="btn_oferta_agregar">
+                    añadir a carrito
+                    <img src="iconos/anadir-al-carrito.png" >
+                </button>
+            </div>
+
+            <div class="card_oferta">
+                <img loading="lazy" src="https://res.cloudinary.com/cede-o/image/upload/v1691249674/web%20bicicle/bicicletas/bicicletas%20el%C3%A9ctricas/bicicleta_electricas_3_hc5v37.png" alt="">
+                <h3>XtraPower X850</h3>
+                <span>Precio: <label>21,350</label></span>
+                <br>
+                <button class="btn_oferta_informacion" id="44" onclick="abrir_Detalle_oferta(id)">ver mas</button>
+                <button onclick="crear_articulo(44)" class="btn_oferta_agregar">
+                    añadir a carrito
+                    <img src="iconos/anadir-al-carrito.png" >
+                </button>
+            </div>
+            </div>
+           
+        </div>
+
+    </section>
+
+    <!-- boton interativo ver mas ofertas -->
+    <a href="ofertas.html">
+        <button class="cta btn_oferta">
+            <span>¡Ver mas ofertas aquí! </span>
+            <svg viewBox="0 0 13 10" height="10px" width="15px">
+            <path d="M1,5 L11,5"></path>
+            <polyline points="8 1 12 5 8 9"></polyline>
+            </svg>
+        </button>
+    </a>
+      
+
+     <section class="repuestos">
+        <div class="contenido">
+            <h2>repuestos</h2>
+            <h3>
+                Encuentra una amplia selección de piezas de alta calidad para mantener 
+                tu bicicleta en perfecto estado y disfrutar de un viaje sin preocupaciones.
+            </h3>
+            <!-- boton interativo ver mas repuestos -->
+           <a href="/repuestos.html">
+            <button class="cta">
+                <span>¡Ver mas repuestos aquí! </span>
+                <svg viewBox="0 0 13 10" height="10px" width="15px">
+                  <path d="M1,5 L11,5"></path>
+                  <polyline points="8 1 12 5 8 9"></polyline>
+                </svg>
+              </button>
+           </a>
+ 
+            <div class="container_card_repuestos">
+                <div class="desplazamiento_card_repuesto">
+
+                    <div class="card_repuesto">
+                        <img loading="lazy" src="https://res.cloudinary.com/cede-o/image/upload/v1692898924/web%20bicicle/piezas/img_repuesto_19_xux6rv.png" alt="">
+                        <h3>cadena de acero bike200</h3>
+                        <p>
+                            Con su durabilidad excepcional y resistencia a la corrosión, esta cadena garantiza un
+                             rendimiento suave.
+                        </p>
+                        <span>Precio: <label>1,200</label></span>
+                        <button onclick="crear_articulo_pd(1)" ><img src="iconos/anadir-al-carrito.png" alt=""></button>
+                    </div>
+
+                    <div class="card_repuesto">
+                        <img loading="lazy" src="https://res.cloudinary.com/cede-o/image/upload/v1692898924/web%20bicicle/piezas/img_repuesto_28_fnbioo.png" alt="">
+                        <h3>guarda logo chain-1234</h3>
+                        <p>
+                            Fabricado con materiales de alta calidad,
+                             este guarda cadena brinda una sólida protección contra suciedad y salpicaduras 
+                        </p>
+                        <span>Precio: <label>850</label></span>
+                        <button  onclick="crear_articulo_pd(2)"><img src="iconos/anadir-al-carrito.png" alt=""></button>
+                    </div>
+
+                    <div class="card_repuesto">
+                        <img loading="lazy" src="https://res.cloudinary.com/cede-o/image/upload/v1692898924/web%20bicicle/piezas/img_repuesto_21_gh5ojp.png" alt="">
+                        <h3>sillin ergonomico sizeX</h3>
+                        <p>
+                            Su diseño anatómico y acolchado de alta densidad proporciona un soporte óptimo para tu cuerpo
+                        </p>
+                        <span>Precio: <label>2,000</label></span>
+                        <button onclick="crear_articulo_pd(3)"><img src="iconos/anadir-al-carrito.png" alt=""></button>
+                    </div>
+
+                    <div class="card_repuesto">
+                        <img loading="lazy" src="https://res.cloudinary.com/cede-o/image/upload/v1692898923/web%20bicicle/piezas/img_repuesto_22_hq1ddc.png" alt="">
+                        <h3>sistema de cambios cyclindal200</h3>
+                        <p>
+                            Diseñado con precisión y fabricado con materiales de alta calidad,
+                             este sistema de cambios ofrece una transición suave
+
+                        </p>
+                        <span>Precio: <label>3,400</label></span>
+                        <button  onclick="crear_articulo_pd(5)"><img src="iconos/anadir-al-carrito.png" alt=""></button>
+                    </div>
+
+                    <div class="card_repuesto">
+                        <img loading="lazy" src="https://res.cloudinary.com/cede-o/image/upload/v1692898923/web%20bicicle/piezas/img_repuesto_25_aqlz5s.png" alt="">
+                        <h3>estereo bocina remota fanterBike20</h3>
+                        <p>
+                            Equipado con una potente bocina y un control remoto inalámbrico, podrás disfrutar de tu música favorita mientras pedaleas.
+                        </p>
+                        <span>Precio: <label>1,700</label></span>
+                        <button onclick="crear_articulo_pd(7)"><img src="iconos/anadir-al-carrito.png" alt=""></button>
+                    </div>
+
+                    <div class="card_repuesto">
+                        <img loading="lazy" src="https://res.cloudinary.com/cede-o/image/upload/v1692898922/web%20bicicle/piezas/img_repuesto_34_wstmle.png" alt="">
+                        <h3>gomas aereoStaty-x90</h3>
+                        <p>
+                            Fabricadas con materiales de alta calidad, estas gomas ofrecen un agarre superior en
+                             terrenos variados
+                        </p>
+                        
+                        <span>Precio: <label>2,000</label></span>
+                        <button onclick="crear_articulo_pd(13)"><img src="iconos/anadir-al-carrito.png" alt=""></button>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+
+     </section>
+
+
+     <section class="caracteristicas">
+        <h2>Por que elegirnos?</h2>
+        <h3>Estas son las razones que nos distinguen de la competencia.</h3>
+        <div class="container_caracteristicas">
+
+            <div class="card_caracteristica">
+                <img src="iconos/control-de-calidad.png" alt="">
+                <br>
+                <h3>Calidad</h3>
+                <span>
+                    Todos nuestros producto
+                    cuentan con sus garantías
+                    de durabilidad y política
+                    de devoluciones
+                </span>
+            </div>
+
+            <div class="card_caracteristica">
+                <img src="iconos/apoyo-tecnico.png" alt="">
+                <br>
+                <h3>Asistencia</h3>
+                <span>
+                    Contamos con un equipo
+                    dedicado a asistir a nuestros
+                    clientes con cualquier 
+                    problema 24/7
+                    
+                </span>
+            </div>
+
+            <div class="card_caracteristica">
+                <img src="iconos/lanzamiento.png" alt="">
+                <br>
+                <h3>Inovacion</h3>
+                <span>
+                     mejorando la experiencia del cliente,
+                    diseñando los productos
+                    mas creativos y mas
+                    eficientes
+                    
+                </span>
+            </div>
+
+        </div>
+
+     </section>
+
+     <svg loading="lazy" class="forma_caracteristica_1" xmlns="http://www.w3.org/2000/svg" width="800" height="800" viewBox="0 0 868.59 836.436">
+        <path id="Trazado_3" data-name="Trazado 3" d="M321.025,513.3c106.736,0,255.511,57.137,318.144-3.619,47.993-46.554,43.739-174.5,43.739-239.306C682.907,121.054,530.033,0,341.454,0S0,121.053,0,270.38c0,89.3,28.1,181.9,112.421,231.161C169.037,534.616,245.216,513.3,321.025,513.3Z" transform="matrix(-0.809, -0.588, 0.588, -0.809, 552.562, 836.436)" fill="#e9b17d"/>
+      </svg>
+
+      <svg loading="lazy" class="forma_caracteristica_2"  xmlns="http://www.w3.org/2000/svg" width="800" height="800" viewBox="0 0 868.59 836.436">
+        <path id="Trazado_4" data-name="Trazado 4" d="M321.025,24.355c106.736,0,255.511-57.137,318.144,3.619,47.993,46.554,43.739,174.5,43.739,239.306,0,149.327-152.874,270.38-341.454,270.38S0,416.606,0,267.28c0-89.3,28.1-181.9,112.421-231.161C169.037,3.044,245.216,24.355,321.025,24.355Z" transform="matrix(0.809, -0.588, 0.588, 0.809, 0, 401.459)" fill="#e9b17d"/>
+      </svg>
+      
+
+      <section class="registro">
+        <h2>No pierdas las ofertas especiales, solo para clientes registrados !</h2>
+        <h3>para registrarse solo debe enviar su correo y comenzara a vivir la experiencia RunBike!</h3>
+        <input type="text" placeholder="Ingrese su correo">
+        <br>
+
+        <button class="button type1">
+            <span class="btn-txt">enviar correo aqui!</span>
+        </button>
+
+      </section>
+      
+      <footer>
+        <div class="informaciones">
+            <h2>Run<span>Bike</span></h2>
+            <p>
+                RunBike es una apasionante empresa dedicada a la venta de bicicletas y piezas de alta calidad, 
+                enfocada en proporcionar a nuestros clientes una experiencia excepcional en el mundo del ciclismo.
+            </p>
+            <div class="redes">
+                <img src="iconos/icono_facebook.png" alt="">
+                <img src="iconos/instagram.png" alt="">
+                <img src="iconos/logotipo-de-pinterest.png" alt="">
+            </div>
+        </div>
+
+        <div class="enlaces">
+            <ul class="mapaWeb">
+                <li>Mapa del sitio</li>
+                <hr>
+                <li><a href="">Inicio</a></li>
+                <li><a href="">Ofertas</a></li>
+                <li><a href="">Repuestos</a></li>
+                <li><a href="">Nosotros</a></li>
+            </ul>
+            <ul class="servicio">
+                <li>Servicio</li>
+                <hr>
+                <li>Servicio al cliente</li>
+                <li>Envios nacionales</li>
+                <li>Devoluciones</li>
+            </ul>
+            <ul class="contacto">
+                <li>Contactos</li>
+                <hr>
+                <li><img src="iconos/telefono.png" alt=""> <span>809-0000-000</span></li>
+                <li><img src="iconos/correo-electronico.png" alt=""><span>info@runbike.com</span></li>
+            </ul>
+        </div>  
+      </footer>
+
+      <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    <script src="js/carrito.js"></script>
+    <script src="js/index.js"></script>
+    <script src="js/repuestos.js"></script>
+
+</body>
+</html>

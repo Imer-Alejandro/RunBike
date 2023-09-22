@@ -1,0 +1,518 @@
+@import url('https://fonts.googleapis.com/css2?family=Borel&family= Lisu+Bosa:wght@200 &family=Noto+Sans+Vithkuqi:wght@500&family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+
+/*
+estilos de fuentes h2 menu 
+
+font-family: 'Noto Sans Vithkuqi', sans-serif; //Run
+font-family: 'Shadows Into Light', cursive; //Bike
+
+*/
+body{
+    overflow-x: hidden;
+}
+h2,h1{
+    font-family: 'Noto Sans Vithkuqi', sans-serif;
+}
+
+h3,h4,button,a{
+    font-family: 'Open Sans', sans-serif;
+}
+
+p,li{
+    font-family: 'Lato', sans-serif;
+
+}
+
+span{
+    font-family: "Ubuntu", sans-serif;
+    letter-spacing: 0.05em;
+}
+
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+a{
+    text-decoration: none;
+}
+
+button{
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    outline: none;
+    border: 0;
+    vertical-align: middle;
+    text-decoration: none;
+    background: transparent;
+    padding: 0;
+    font-size: inherit;
+    font-family: inherit;
+}
+
+
+/*menu*/
+
+nav{
+    z-index: 5;
+    overflow: hidden;
+      backdrop-filter: blur(10px);
+      background-color: rgba(255, 255, 255, 0.726);
+      box-sizing: border-box;
+      position: fixed;
+      display: flex;
+      flex-wrap: wrap;
+      width: 100%;
+      height: 70px;
+      align-items: center;
+      padding-left: 2%;
+      padding-right: 2%;
+  }
+  
+  
+  nav ul {
+      position: absolute;
+      width: 50%;
+      margin-left: 25%;
+      box-sizing: border-box;
+      padding-left: 1%;
+      padding-right: 1%;
+      justify-content: center;
+      align-items: center;
+      display: flex;
+      margin-right: 30%;
+  }
+  
+  nav ul li{
+      font-size: 1.1rem;
+      letter-spacing: 1px;
+      list-style: none;
+      margin-right: 15%;
+      display: inline-flex;
+  }
+  
+  nav ul li a{
+      color: #4D4D4D;
+  }
+  
+  nav h2{
+      font-size: 1.3rem;
+      color: #E9B17D;
+  }
+  
+  nav h2 span{
+    font-family: 'Shadows Into Light', cursive;
+  }
+  
+  nav figure{
+      display: inline-block;
+      margin-left: 30px;
+      width: 30px;
+      height:30px;
+  }
+  
+  
+  nav figure span{
+      font-size: 1rem;
+      margin-left: 20px;
+      margin-top: -10px;
+      position: absolute;
+      border-radius: 40px;
+      letter-spacing: 1px;
+      padding: 2px 2px;
+      padding-left: 4px;
+      text-align: center;
+      background-color: #E9B17D;
+      color: white;
+  }
+  
+  nav figure img{
+      cursor: pointer;
+      width: 100%;
+  }
+  
+  .btns_menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+      margin-left: 80%;
+  }
+  
+  .btns_menu img:nth-child(2){
+    margin-top: 3px;
+  }
+  
+  
+  
+  /*estilos del boton menu*/
+  
+  .hamburger {
+    display: none;
+    margin-left: 85%;
+    margin-top: 40px;
+    cursor: pointer;
+  }
+  
+  .hamburger input {
+    display: none;
+  }
+  
+  .hamburger svg {
+    /* The size of the SVG defines the overall size */
+    height: 3em;
+    /* Define the transition for transforming the SVG */
+    transition: transform 600ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  
+  .line {
+    fill: none;
+    stroke: rgb(0, 0, 0);
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-width: 3;
+    /* Define the transition for transforming the Stroke */
+    transition: stroke-dasharray 600ms cubic-bezier(0.4, 0, 0.2, 1),
+                stroke-dashoffset 600ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  
+  .line-top-bottom {
+    stroke-dasharray: 12 63;
+  }
+  
+  .hamburger input:checked + svg {
+    transform: rotate(-45deg);
+  }
+  
+  .hamburger input:checked + svg .line-top-bottom {
+    stroke-dasharray: 20 300;
+    stroke-dashoffset: -32.42;
+  }
+
+
+  /*estilo menu desplegable para movil*/
+.menu_desplegable{
+  display: none;
+  box-sizing: border-box;
+  background-color: #1b15169f;
+  height: 100vh;
+  position: fixed;
+  backdrop-filter: blur(5px);
+  z-index: 3;
+  width: 100%;
+}
+.container_menu_desplegable{
+  height: 100%;
+  background-color:#1F2024 ;
+  width: 40%;
+}
+
+.container_menu_desplegable ul{
+  display: flex;
+  width: 100%;
+  height: 100%;
+  padding-top: 120px;
+  box-sizing: border-box;
+  flex-direction: column;
+  padding-left: 2%;
+}
+
+.container_menu_desplegable ul a{
+  color: #7a7a7a;
+  margin-left: 60px;
+}
+
+.container_menu_desplegable ul li{
+  list-style: none;
+  justify-content: center;
+  font-size: 1.2rem;
+  font-weight: 100;
+  margin-left: 2%;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 60px;
+  letter-spacing: 1.5px;
+}
+
+
+.container_menu_desplegable ul li img{
+  width: 35px;
+  margin-top: -10px;
+  position: absolute;
+}
+
+  
+/*estilo detalle de oferta*/
+
+.container_detalleOferta{
+  display: none;
+  box-sizing: border-box;
+  background-color: #15161b9f;
+  height: 100vh;
+  position: fixed;
+  z-index: 3;
+  padding-top: 10%;
+  width: 100%;
+}
+.container_detalleOferta .contenido_detalles{
+  width: 70%;
+  height: 70vh;
+  margin-left: 15%;
+  margin-right: 15%;
+  display: flex;
+  background-color: white;
+}
+
+.close{
+  position: absolute;
+  margin-left: 65%;
+  margin-top: 20px;
+}
+.close h3{
+  font-size: 2rem;
+  font-weight: 100;
+  color: #1F2024;
+  cursor: pointer;
+}
+.container_detalleOferta .contenido_detalles > img{
+  width: 45%;
+  height: 100%;
+
+}
+
+.container_detalleOferta .contenido_detalles .detalles{
+  width: 40%;
+  margin-left: 50px;
+  box-sizing: border-box;
+  padding-top: 20px;
+  height: 100%;
+}
+
+.container_detalleOferta .contenido_detalles .detalles > label{
+  font-size: 1.2rem;
+  color: #043249;
+  font-weight: 700;
+  font-family: 'Noto Sans Vithkuqi', sans-serif;
+  margin-bottom: 20px;
+}
+
+.container_detalleOferta .contenido_detalles .detalles h3{
+  font-weight: 600;
+  margin-top: 10px;
+  margin-bottom: 10px;
+
+}
+
+.container_detalleOferta .contenido_detalles .detalles h4{
+  margin-bottom: 10px;
+  margin-top: 5px;
+}
+.container_detalleOferta .contenido_detalles .detalles p{
+  margin-top: 10px;
+  margin-bottom: 10px;
+
+}
+
+.container_detalleOferta .contenido_detalles .detalles span{
+  font-weight: 600;
+  color: dimgray;
+}
+
+.container_detalleOferta .contenido_detalles .detalles span label{
+  color: #E9B17D;
+  font-weight: 600;
+}
+
+.container_detalleOferta .contenido_detalles .detalles button{
+  width: 200px;
+  font-size: 1.1rem;
+  letter-spacing: 1px;
+  font-weight: 100;
+  height: 40px;
+  margin-left: 50px;
+  position: relative;
+  box-sizing: border-box;
+  border-radius: 5px;
+  background-color: #E9B17D;
+  box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.479);
+  color: white;
+  padding-right: 20px;
+  transition: 300ms;
+}
+
+
+.container_detalleOferta .contenido_detalles .detalles button:hover{
+  transition: 300ms;
+  box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.479);
+  background-color: #fdbf84;
+
+}
+
+.container_detalleOferta .contenido_detalles .detalles button img{
+  width: 20px;
+  position: absolute;
+  padding-left: 5px;
+}
+
+
+
+
+
+
+/*footer*/
+
+
+footer{
+    display: flex;
+    padding-top: 50px;
+    padding-left: 2%;
+    background-color: #F2F2F2;
+    width: 100%;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    padding-bottom: 30px;
+  }
+  
+  footer .informaciones{
+    width: 30%;
+  }
+  
+  footer .informaciones h2{
+    font-size: 2rem;
+    color: #000000;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+  }
+  
+  footer .informaciones h2 span{
+    font-family: 'Shadows Into Light', cursive;
+  
+  }
+  
+  footer .informaciones p{
+    color: #303030;
+    font-size: 1rem;
+    line-height: 20px;
+    font-weight: 200;
+    margin-bottom: 20px;
+  }
+  
+  footer .informaciones .redes img{
+    cursor: pointer;
+    width: 35px;
+    margin-right: 20px;
+  }
+  
+  footer .enlaces{
+    display: inline-flex;  
+  }
+  
+  footer .enlaces hr{
+    background-color:#303030 ;
+    height: 1px;
+    width: 130px;
+  }
+  footer .enlaces ul{
+    color: #303030;
+    padding-left: 1%;
+    margin-left: 70px;
+    margin-top: 20px;
+    border-left: #303030 2px solid;
+  }
+  
+  footer .enlaces ul:nth-child(1){
+    height: 200px;
+  }
+  
+  footer .enlaces ul:nth-child(2){
+    height: 175px;
+  }
+  
+  footer .enlaces ul:nth-child(3){
+    height: 125px;
+  }
+  
+  footer .enlaces ul li img{
+    width: 20px;
+    position: absolute;
+  }
+  
+  footer .enlaces ul:nth-child(3) span{
+    margin-left: 30px;
+  }
+  
+  footer .enlaces ul li:first-child{
+    font-weight: 700;
+    margin-bottom: 10px;
+  }
+  
+  footer .enlaces ul hr{
+    margin-bottom: 10px;
+  }
+  footer .enlaces ul li{
+    cursor: pointer;
+    list-style: none;
+    margin-bottom: 15px;
+  }
+  
+  footer .enlaces ul li a{
+    color: #303030;
+  
+  }
+
+
+
+  /*reponse menu*/
+
+  
+@media screen and (max-width:900px) {
+  
+
+    nav ul{
+      display: none;
+    }
+  
+    .hamburger {
+      display: block;
+      margin-left: 75%;
+    }
+    .btns_menu{
+      margin-left: 65%;
+    }
+
+}
+
+
+@media screen and (max-width:600px){
+  
+    /*menu*/
+  
+    .hamburger {
+      margin-left: 65%;
+    }
+    .btns_menu{
+      margin-left: 55%;
+    }
+}
+
+
+@media screen and (max-width:500px){
+    .hamburger {
+      margin-left: 60%;
+    }
+    .btns_menu{
+      margin-left: 45%;
+    }
+}
+
+
+@media screen and (max-width:400px){
+    .hamburger {
+      margin-left: 50%;
+    }
+    .btns_menu{
+      margin-left: 35%;
+    }
+}

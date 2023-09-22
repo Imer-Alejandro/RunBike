@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+
+    <link rel="stylesheet" href="css/repuestos.css">
+    <link rel="shortcut icon" href="iconos/bicicleta.ico" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RunBike - repuestos</title>
+</head>
+<body>
+    <nav>  
+        <h2>Run<span>Bike</span></h2>
+
+        <ul>
+            <li><a href="index.html">inicio</a></li>
+            <li><a href="ofertas.html">ofertas</a></li>
+            <li><a href="repuestos.html">repuestos</a></li>
+            <li><a href="nosotros.html">nosotros</a></li>
+        </ul>
+
+        <div class="btns_menu">
+            <a href="carrito.html">
+                <figure>
+                    <span class="count_list">0</span>
+                    <img src="iconos/carrito-de-compras.png" alt="" title="carrito de compras">
+                </figure>
+            </a>
+            
+        
+        </div>    
+
+        <label class="hamburger">
+            <input type="checkbox" onclick="Open_and_Close_menu_lateral(checked)">
+            <svg viewBox="0 0 32 32">
+                <path class="line line-top-bottom" d="M27 10 13 10C10.8 10 9 8.2 9 6 9 3.5 10.8 2 13 2 15.2 2 17 3.8 17 6L17 26C17 28.2 18.8 30 21 30 23.2 30 25 28.2 25 26 25 23.8 23.2 22 21 22L7 22"></path>
+                <path class="line" d="M7 16 27 16"></path>
+            </svg>
+        </label>        
+    </nav>
+
+    <div class="menu_desplegable">
+        <div class="container_menu_desplegable">
+            <ul>
+                    <li>
+                        <img src="iconos/hogar.png" alt="">
+                        <a href="index.html">
+                            Inicio
+                        </a>
+                    </li>
+               
+               
+                    <li>
+                        <img src="iconos/etiqueta-de-precio.png" alt="">
+                        <a href="ofertas.html">
+                            Ofertas
+                        </a>
+                    </li>
+
+               
+                    <li>
+                        <img src="iconos/herramienta-de-reparacion.png" alt="">
+                        <a href="repuestos.html">
+                            Repuestos
+                        </a>
+                    </li>
+
+               
+                    <li>
+                        <img src="iconos/grupo.png" alt="">
+                        <a href="nosotros.html">
+                            Nosotros
+                        </a>
+                    </li>
+
+                
+                    
+            </ul>
+        </div>    
+    </div>
+
+    <div class="container_detalleOferta">
+        <div class="contenido_detalles">
+            <div class="close" title="cerrar ventana" onclick="cerrar_detalle_oferta()"><h3>X</h3></div>
+
+            <img class="img_detalles_item" src="img/4260524471274_1-removebg-preview.png" alt="">
+            <div class="detalles">
+                <label class="detalles_modelo">Modelo:</label>
+                <h3>Bicicleta modelo Clasico F-122</h3>
+                <label>Description:</label>
+                <p class="detalles_description">
+                    Buscamos no solo vender productos, sino también inspirar una conexión más profunda con
+                    la emoción y la libertad que el ciclismo puede brindar. Además, nos esforzamos por 
+                    crear una comunidad de ciclistas apasionados al organizar eventos
+                </p>
+                <label>marca:</label>
+                <h4 class="detalles_marca">raicin bition</h4>
+
+                <label>Categoria:</label>
+                <h4 class="detalles_categoria">urbana</h4>
+
+                <span>Precio:<label class="detalles_precio">17,870</label></span>
+
+                <button class="id_detalle_producto" id=""  onclick="crear_articulo_pd(id)">
+                    añadir a carrito
+                    <img src="iconos/anadir-al-carrito.png" alt="">
+                </button>
+            </div>
+
+        </div>
+    </div>
+
+    <header>
+        <h1>Renueva tu Paseo<br> con Cuidado en <span>Run<span>Bike!</span></span></h1>
+        <h3> Explora Nuestra Colección de Repuestos, para Tu Bici Favorita!</h3>
+    </header>
+
+    <div class="slider">
+        <div class="slide-track">
+            <div class="slide">
+                <img src="iconos/carrucer_producto/carrucer_repuesto_img_1.png"  />
+            </div>
+            <div class="slide">
+                <img src="iconos/carrucer_producto/carrucer_repuesto_img_2.png"  />
+            </div>
+            <div class="slide">
+                <img src="iconos/carrucer_producto/carrucer_repuesto_img_3.png"  />
+            </div>
+            <div class="slide">
+                <img src="iconos/carrucer_producto/carrucer_repuesto_img_4.png" />
+            </div>
+            <div class="slide">
+                <img src="iconos/carrucer_producto/carrucer_repuesto_img_5.png"  />
+            </div>
+            <div class="slide">
+                <img src="iconos/carrucer_producto/carrucer_repuesto_img_6.png"  />
+            </div>
+            <div class="slide">
+                <img src="iconos/carrucer_producto/carrucer_repuesto_img_7.png"  />
+            </div>
+            <div class="slide">
+                <img src="iconos/carrucer_producto/carrucer_repuesto_img_8.png"  />
+            </div>
+            <div class="slide">
+                <img src="iconos/carrucer_producto/carrucer_repuesto_img_9.png"  />
+            </div>
+            <div class="slide">
+                <img src="iconos/carrucer_producto/carrucer_repuesto_img_10.png"  />
+            </div>
+            <div class="slide">
+                <img src="iconos/carrucer_producto/carrucer_repuesto_img_11.png" />
+            </div>
+            <div class="slide">
+                <img src="iconos/carrucer_producto/carrucer_repuesto_img_12.png"  />
+            </div>
+            <div class="slide">
+                <img src="iconos/carrucer_producto/carrucer_repuesto_img_13.png"  />
+            </div>
+        </div>
+    </div>
+
+    <div class="contenido">
+        <h2>Piezas y Repuestos </h2>
+        <h3>
+            Explora nuestra sección de Repuestos y Piezas en RunBike para encontrar
+            una cuidada selección de componentes que elevarán tu experiencia en cada paseo. 
+            Desde cadenas resistentes hasta frenos precisos y manillares cómodos, nuestra variedad 
+            está diseñada para brindarte durabilidad y rendimiento. 
+        </h3>
+    </div>
+
+    <section class="filtro">
+        <div class="filtro_busqueda">
+            <h3>Filtro de busqueda:</h3>
+            <div class="form">
+                <input type="text" placeholder="Ingrese la marca o el nombre aqui...">
+                    <img class="btn_search_model" onclick="filter_search_name()" src="iconos/lupa (1).png" title="buscar">
+                </input>
+                <select class="parametro_categoria" name="" id="">
+                    <option>categoria</option>
+                    <option value="todas">todas</option>
+                    <option value="cadenas">cadenas</option>
+                    <option value="frenos">frenos</option>
+                    <option value="pedales">pedales</option>
+                    <option value="todas">marco</option>
+                    <option value="todas">accesorio</option>
+                    <option value="todas">sillin</option>
+                    <option value="todas">cambios</option>
+                    <option value="todas">gomas</option>
+
+
+
+                </select>
+
+                <select class="parametro_marca" name="" id="" >
+                    <option >marca</option>
+                    <option value="chain reaction" >chain reaction</option>
+                    <option value="cyclindeal">cyclindeal</option>
+                    <option value="merlin" >merlin</option>
+                    <option value="jensonUSA">jensonUSA</option>
+                    <option value="planet cycles" >planet cycles</option>
+                    <option value="west biking" >west biking</option>
+                    <option value="bike discount" >bike discount</option>
+                    <option value="bike24" >bike24</option>
+                    <option value="performance bike" >performance bike</option>
+                </select>
+
+                <input class="parametro_precio" type="number" name="" id="" placeholder="precio">
+                <button class="btn_busquedad" title="aplicar filtro">buscar<img src="iconos/filtrar.png" ></button>
+            </div>
+        </div>
+    </section>
+
+    <section class="listado_repuestos">
+      <div class="container_item">
+
+        <div class="card_bicicleta" >
+            <img loading="lazy" src="https://res.cloudinary.com/cede-o/image/upload/v1692898924/web%20bicicle/piezas/img_repuesto_19_xux6rv.png" >
+            <div class="caracteristica_card">
+                <div class="caracteristica"><h4>chain reaction</h4></div>
+                <div class="caracteristica"><h4>cadenas</h4></div>
+            </div>
+            <h3>cadena de acero bike200</h3>
+            <p>
+                Con su durabilidad excepcional y resistencia a la corrosión,
+                 esta cadena garantiza un rendimiento suave y confiable en cualquier terreno. 
+            </p>
+            <span>Precio: <label>1200</label></span>
+            <button  onclick="crear_articulo_pd(1)"><img src="iconos/anadir-al-carrito.png"  ></button>
+        </div>
+
+        <div class="card_bicicleta" >
+            <img loading="lazy" src="https://res.cloudinary.com/cede-o/image/upload/v1692898924/web%20bicicle/piezas/img_repuesto_28_fnbioo.png" >
+            <div class="caracteristica_card">
+                <div class="caracteristica"><h4>chain reaction</h4></div>
+                <div class="caracteristica"><h4>accesorio</h4></div>
+            </div>
+            <h3>guarda logo chain-1234</h3>
+            <p>
+                Fabricado con materiales de alta calidad, este guarda cadena brinda una sólida protección 
+                contra suciedad y salpicaduras, manteniendo tu bicicleta y tu ropa limpios durante tus paseos. 
+            </p>
+            <span>Precio: <label>850</label></span>
+            <button  onclick="crear_articulo_pd(2)"><img src="iconos/anadir-al-carrito.png"  ></button>
+        </div>
+
+        <div class="card_bicicleta" >
+            <img loading="lazy" src="https://res.cloudinary.com/cede-o/image/upload/v1692898922/web%20bicicle/piezas/img_repuesto_34_wstmle.png" >
+            <div class="caracteristica_card">
+                <div class="caracteristica"><h4>jensonUSA</h4></div>
+                <div class="caracteristica"><h4>gomas</h4></div>
+            </div>
+            <h3>gomas aereoStaty-x90</h3>
+            <p>
+                Fabricadas con materiales de alta calidad, estas gomas ofrecen un agarre superior en terrenos variados, 
+                desde senderos empinados hasta terrenos rocosos. 
+            </p>
+            <span>Precio: <label>2,000</label></span>
+            <button  onclick="crear_articulo_pd(13)"><img src="iconos/anadir-al-carrito.png"  ></button>
+        </div>
+
+        <div class="card_bicicleta" >
+            <img loading="lazy" src="https://res.cloudinary.com/cede-o/image/upload/v1692898922/web%20bicicle/piezas/img_repuesto_38_kickxy.png" >
+            <div class="caracteristica_card">
+                <div class="caracteristica"><h4>planet cycles</h4></div>
+                <div class="caracteristica"><h4>marco</h4></div>
+            </div>
+            <h3>timon 20 GT estandar bmx</h3>
+            <p>
+                Fabricado con materiales resistentes, te brinda la confianza para realizar trucos y giros audaces en el parque o en la pista. 
+            </p>
+            <span>Precio: <label>4,300</label></span>
+            <button  onclick="crear_articulo_pd(19)"><img src="iconos/anadir-al-carrito.png"  ></button>
+        </div>
+
+        <div class="card_bicicleta" >
+            <img loading="lazy" src="https://res.cloudinary.com/cede-o/image/upload/v1692898922/web%20bicicle/piezas/img_repuesto_33_j6atpo.png" >
+            <div class="caracteristica_card">
+                <div class="caracteristica"><h4>jensonUSA</h4></div>
+                <div class="caracteristica"><h4>gomas</h4></div>
+            </div>
+            <h3>juego de aros estatyBike</h3>
+            <p>
+                Diseñados para adaptarse a una variedad de bicicletas, estos aros mejoran la resistencia y la estabilidad 
+                de tus ruedas, proporcionándote un viaje suave y eficiente.
+            </p>
+            <span>Precio: <label>1,500</label></span>
+            <button  onclick="crear_articulo_pd(16)"><img src="iconos/anadir-al-carrito.png"  ></button>
+        </div>
+
+        <div class="card_bicicleta" >
+            <img loading="lazy" src="https://res.cloudinary.com/cede-o/image/upload/v1692898920/web%20bicicle/piezas/img_repuesto_44_gfx2qk.png" >
+            <div class="caracteristica_card">
+                <div class="caracteristica"><h4>west biking</h4></div>
+                <div class="caracteristica"><h4>marco</h4></div>
+            </div>
+            <h3>chasis de carbono</h3>
+            <p>
+                El chasis de carbono es la columna vertebral de la bicicleta, combinando ligereza y resistencia.
+            </p>
+            <span>Precio: <label>6,700</label></span>
+            <button  onclick="crear_articulo_pd(25)"><img src="iconos/anadir-al-carrito.png"  ></button>
+        </div>
+
+        <div class="card_bicicleta" >
+            <img loading="lazy" src="https://res.cloudinary.com/cede-o/image/upload/v1692898920/web%20bicicle/piezas/img_repuesto_43_gxze5i.png" >
+            <div class="caracteristica_card">
+                <div class="caracteristica"><h4>rei coop</h4></div>
+                <div class="caracteristica"><h4>marco</h4></div>
+            </div>
+            <h3>orquilla estandar aero_bike</h3>
+            <p>
+                La orquilla de ciclismo es un componente esencial que mejora la absorción de impactos y la estabilidad en la bicicleta.
+            </p>
+            <span>Precio: <label>1,500</label></span>
+            <button  onclick="crear_articulo_pd(24)"><img src="iconos/anadir-al-carrito.png"  ></button>
+        </div>
+
+        <div class="card_bicicleta" >
+            <img loading="lazy" src="https://res.cloudinary.com/cede-o/image/upload/v1692898919/web%20bicicle/piezas/img_repuesto_48_ggqa72.png" >
+            <div class="caracteristica_card">
+                <div class="caracteristica"><h4>west biking</h4></div>
+                <div class="caracteristica"><h4>accesorio</h4></div>
+            </div>
+            <h3>bateria bike_remote</h3>
+            <p>
+                La batería Bike_Remote es una fuente de energía confiable para tu control remoto en
+                 la bicicleta. Diseñada para una larga duración, esta batería te permite controlar tu bicicleta eléctrica
+            </p>
+            <span>Precio: <label>8,300</label></span>
+            <button  onclick="crear_articulo_pd(27)"><img src="iconos/anadir-al-carrito.png"  ></button>
+        </div>
+
+        <div class="card_bicicleta" >
+            <img loading="lazy" src="https://res.cloudinary.com/cede-o/image/upload/v1692898919/web%20bicicle/piezas/img_repuesto_45_lqkz0g.png" >
+            <div class="caracteristica_card">
+                <div class="caracteristica"><h4>west biking</h4></div>
+                <div class="caracteristica"><h4>pedales</h4></div>
+            </div>
+            <h3>pedales estandar bike_BMX</h3>
+            <p>
+                Los pedales estándar Bike_BMX son robustos y confiables, diseñados para resistir 
+                el uso extremo en bicicletas BMX. Con una plataforma ancha y pines de agarre, proporcionan un control óptimo  
+            </p>
+            <span>Precio: <label>3,100</label></span>
+            <button  onclick="crear_articulo_pd(28)"><img src="iconos/anadir-al-carrito.png"  ></button>
+        </div>
+
+      </div>
+    </section>
+
+    <section class="ofertas">
+        <h2> <span>Ofertas</span> destacadas</h2>
+        <h3>Estas son las ofertas mas destacadas y ofertas de temporada</h3>
+        <div class="container">
+            <button class="btn_desplazamiento" id="move_left" onclick="mover_slider(id)">
+                <img src="iconos/flecha.png" alt="" srcset="">
+            </button>
+
+            <button class="btn_desplazamiento"  id="move_right" onclick="mover_slider(id)">
+                <img src="iconos/flecha.png" alt="" srcset="">
+            </button>
+
+            <div class="desplazamiento_ejeX">
+            <div class="card_oferta">
+                <img loading="lazy" src="https://res.cloudinary.com/cede-o/image/upload/v1692898919/web%20bicicle/piezas/img_repuesto_47_rmpnve.png" alt="">
+                <h3>marco de titanio</h3>
+                <span>Precio: <label>12,400</label></span>
+                <br>
+                <button class="btn_oferta_informacion"  onclick="abrir_Detalle_oferta_Repuestos(30)">ver mas</button>
+                <button class="btn_oferta_agregar" onclick="crear_articulo_pd(30)">
+                    añadir a carrito
+                    <img src="iconos/anadir-al-carrito.png" >
+                </button>
+            </div>
+
+            <div class="card_oferta">
+                <img loading="lazy" src="https://res.cloudinary.com/cede-o/image/upload/v1692898924/web%20bicicle/piezas/img_repuesto_21_gh5ojp.png" alt="">
+                <h3>sillin ergonomico sizeX</h3>
+                <span>Precio: <label>2,000</label></span>
+                <br>
+                <button class="btn_oferta_informacion" onclick="abrir_Detalle_oferta_Repuestos(3)">ver mas</button>
+                <button class="btn_oferta_agregar" onclick="crear_articulo_pd(3)">
+                    añadir a carrito
+                    <img src="iconos/anadir-al-carrito.png" >
+                </button>
+            </div>
+
+            <div class="card_oferta">
+                <img loading="lazy" src="https://res.cloudinary.com/cede-o/image/upload/v1692898922/web%20bicicle/piezas/img_repuesto_38_kickxy.png" alt="">
+                <h3>timon 20 GT estandar bmx</h3>
+                <span>Precio: <label>4,300</label></span>
+                <br>
+                <button class="btn_oferta_informacion" onclick="abrir_Detalle_oferta_Repuestos(19)">ver mas</button>
+                <button class="btn_oferta_agregar" onclick="crear_articulo_pd(19)">
+                    añadir a carrito
+                    <img src="iconos/anadir-al-carrito.png" >
+                </button>
+            </div>
+
+            <div class="card_oferta">
+                <img loading="lazy" src="https://res.cloudinary.com/cede-o/image/upload/v1692898917/web%20bicicle/piezas/img_repuesto_2_q13e1q.png" alt="">
+                <h3>juego de frenos rent_bike</h3>
+                <span>Precio: <label>3,600</label></span>
+                <br>
+                <button class="btn_oferta_informacion" onclick="abrir_Detalle_oferta_Repuestos(37)">ver mas</button>
+                <button class="btn_oferta_agregar" onclick="crear_articulo_pd(37)">
+                    añadir a carrito
+                    <img src="iconos/anadir-al-carrito.png" >
+                </button>
+            </div>
+
+            <div class="card_oferta">
+                <img loading="lazy" src="https://res.cloudinary.com/cede-o/image/upload/v1692898916/web%20bicicle/piezas/img_repuesto_14_z3a8vf.png" alt="">
+                <h3>cadena de bike_BMX aro 20</h3>
+                <span>Precio: <label>1,300</label></span>
+                <br>
+                <button class="btn_oferta_informacion" onclick="abrir_Detalle_oferta_Repuestos(44)">ver mas</button>
+                <button class="btn_oferta_agregar" onclick="crear_articulo_pd(44)">
+                    añadir a carrito
+                    <img src="iconos/anadir-al-carrito.png" >
+                </button>
+            </div>
+
+            <div class="card_oferta">
+                <img loading="lazy" src="https://res.cloudinary.com/cede-o/image/upload/v1692898923/web%20bicicle/piezas/img_repuesto_25_aqlz5s.png" alt="">
+                <h3>estereo bocina remota fanterBike20</h3>
+                <span>Precio: <label>1,700</label></span>
+                <br>
+                <button class="btn_oferta_informacion" onclick="abrir_Detalle_oferta_Repuestos(7)">ver mas</button>
+                <button class="btn_oferta_agregar" onclick="crear_articulo_pd(7)">
+                    añadir a carrito
+                    <img src="iconos/anadir-al-carrito.png" >
+                </button>
+            </div>
+            </div>
+           
+        </div> 
+  
+    </section>
+
+
+    <footer>
+        <div class="informaciones">
+            <h2>Run<span>Bike</span></h2>
+            <p>
+                RunBike es una apasionante empresa dedicada a la venta de bicicletas y piezas de alta calidad, 
+                enfocada en proporcionar a nuestros clientes una experiencia excepcional en el mundo del ciclismo.
+            </p>
+            <div class="redes">
+                <img src="iconos/icono_facebook.png" alt="">
+                <img src="iconos/instagram.png" alt="">
+                <img src="iconos/logotipo-de-pinterest.png" alt="">
+            </div>
+        </div>
+
+        <div class="enlaces">
+            <ul class="mapaWeb">
+                <li>Mapa del sitio</li>
+                <hr>
+                <li><a href="">Inicio</a></li>
+                <li><a href="">Ofertas</a></li>
+                <li><a href="">Repuestos</a></li>
+                <li><a href="">Nosotros</a></li>
+            </ul>
+            <ul class="servicio">
+                <li>Servicio</li>
+                <hr>
+                <li>Servicio al cliente</li>
+                <li>Envios nacionales</li>
+                <li>Devoluciones</li>
+            </ul>
+            <ul class="contacto">
+                <li>Contactos</li>
+                <hr>
+                <li><img src="iconos/telefono.png" alt=""> <span>809-0000-000</span></li>
+                <li><img src="iconos/correo-electronico.png" alt=""><span>info@runbike.com</span></li>
+            </ul>
+        </div>  
+      </footer>
+      <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+  
+      <script src="js/repuestos.js"></script>
+    <script src="js/index.js"></script>
+</body>
+</html>

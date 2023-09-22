@@ -1,0 +1,602 @@
+[
+   {
+     "id":1,
+     "modelo":"RockyTrail R450",
+     "imagen":"https://res.cloudinary.com/cede-o/image/upload/v1691246272/web%20bicicle/bicicletas/bicicletas%20de%20monta%C3%B1a/bicicleta_monta%C3%B1a_13_jguihv.png",
+     "marca":"trek",
+     "categoria":"montaña",
+     "description":"Ágil y robusta, ideal para terrenos escarpados. Dispone de suspensión avanzada para un viaje suave y controlado.",
+     "precio":12600,
+     "cantidad":1
+   },
+   {
+     "id":2,
+     "modelo":"PeakRider X9",
+     "imagen":"https://res.cloudinary.com/cede-o/image/upload/v1691246272/web%20bicicle/bicicletas/bicicletas%20de%20monta%C3%B1a/bicicleta_monta%C3%B1a_12_mtqto6.png",
+     "marca":"trek",
+     "categoria":"montaña",
+     "description":"Rendimiento extremo con cuadro ligero. Control excepcional en descensos desafiantes y ascensos empinados para una experiencia emocionante.",
+     "precio":13500,
+     "cantidad":1
+   },
+   {
+     "id":3,
+     "modelo":"TrekFlow M200",
+     "imagen":"https://res.cloudinary.com/cede-o/image/upload/v1691246272/web%20bicicle/bicicletas/bicicletas%20de%20monta%C3%B1a/bicicleta_monta%C3%B1a_11_m5h2tg.png",
+     "marca":"trek",
+     "categoria":"montaña",
+     "description":" Resistente y versátil. Domina senderos con cambio suave y frenado preciso, brindando confianza en cada recorrido.",
+     "precio":14900,
+     "cantidad":1
+   },
+   {
+     "id":4,
+     "modelo":"SwiftClimb S650",
+     "imagen":"https://res.cloudinary.com/cede-o/image/upload/v1691246272/web%20bicicle/bicicletas/bicicletas%20de%20monta%C3%B1a/bicicleta_monta%C3%B1a_9_bvzina.png",
+     "marca":"trek",
+     "categoria":"montaña",
+     "description":"Ligera y eficiente. Sube colinas con facilidad y responde rápidamente en descensos técnicos, garantizando aventuras dinámicas.",
+     "precio":12750,
+     "cantidad":1
+   },
+   {
+     "id":5,
+     "modelo":"GravityGlide G300",
+     "imagen":"https://res.cloudinary.com/cede-o/image/upload/v1691246272/web%20bicicle/bicicletas/bicicletas%20de%20monta%C3%B1a/bicicleta_monta%C3%B1a_7_nfrjar.png",
+     "marca":"scott",
+     "categoria":"montaña",
+     "description":"Diseño agresivo para descensos audaces. Su sistema de amortiguación superior asegura un manejo suave en cualquier terreno desafiante.",
+     "precio":18900,
+     "cantidad":1
+   },
+   {
+     "id":6,
+     "modelo":"WildVenture W700",
+     "imagen":"https://res.cloudinary.com/cede-o/image/upload/v1691246272/web%20bicicle/bicicletas/bicicletas%20de%20monta%C3%B1a/bicicleta_monta%C3%B1a_8_nrk8vf.png",
+     "marca":"scott",
+     "categoria":"montaña",
+     "description":"Aventura sin límites. Equipada con neumáticos anchos y tracción excepcional para explorar terrenos salvajes con confianza.",
+     "precio":15490,
+     "cantidad":1
+   },
+   {
+     "id":7,
+     "modelo":"BlazeCrest B550",
+     "imagen":"https://res.cloudinary.com/cede-o/image/upload/v1691246271/web%20bicicle/bicicletas/bicicletas%20de%20monta%C3%B1a/bicicleta_monta%C3%B1a_10_ruravg.png",
+     "marca":"scott",
+     "categoria":"montaña",
+     "description":" Velocidad y estilo combinados. Presenta un cuadro elegante con componentes de alto rendimiento para emocionantes travesías todoterreno.",
+     "precio":17300,
+     "cantidad":1
+   },
+   {
+     "id":8,
+     "modelo":"ZenithPeak Z800",
+     "imagen":"https://res.cloudinary.com/cede-o/image/upload/v1691246271/web%20bicicle/bicicletas/bicicletas%20de%20monta%C3%B1a/bicicleta_monta%C3%B1a_6_idlof2.png",
+     "marca":"scott",
+     "categoria":"montaña",
+     "description":" Innovación en cada detalle. Bicicleta premium con tecnología de vanguardia y geometría adaptable para una experiencia personalizada.",
+     "precio":13700,
+     "cantidad":1
+   },
+   {
+     "id":9,
+     "modelo":"ElementEvo E350",
+     "imagen":"https://res.cloudinary.com/cede-o/image/upload/v1691246271/web%20bicicle/bicicletas/bicicletas%20de%20monta%C3%B1a/bicicleta_monta%C3%B1a_5_gawb1w.png",
+     "marca":"focus",
+     "categoria":"montaña",
+     "description":" Adaptable y resistente. Supera obstáculos con facilidad y brinda comodidad en largos recorridos, asegurando aventuras sin limitaciones.",
+     "precio":19000,
+     "cantidad":1
+   },
+   {
+     "id":10,
+     "modelo":"AlpineRush A600",
+     "imagen":"https://res.cloudinary.com/cede-o/image/upload/v1691246270/web%20bicicle/bicicletas/bicicletas%20de%20monta%C3%B1a/bicicleta_monta%C3%B1a_3_zglr45.png",
+     "marca":"focus",
+     "categoria":"montaña",
+     "description":"Rendimiento alpino de élite. Ligera, ágil y lista para conquistar altas altitudes mientras ofrece un control excepcional.",
+     "precio":16800,
+     "cantidad":1
+   },
+   {
+     "id":11,
+     "modelo":"NexusTrail N450",
+     "imagen":"https://res.cloudinary.com/cede-o/image/upload/v1691246270/web%20bicicle/bicicletas/bicicletas%20de%20monta%C3%B1a/bicicleta_monta%C3%B1a_4_vxpg0k.png",
+     "marca":"focus",
+     "categoria":"montaña",
+     "description":"Equilibrio perfecto entre comodidad y agresividad. Diseñada para explorar senderos diversos con confiabilidad y estilo distintivo.",
+     "precio":11350,
+     "cantidad":1
+   },
+   {
+     "id":12,
+     "modelo":"RidgeRunner R750",
+     "imagen":"https://res.cloudinary.com/cede-o/image/upload/v1691246270/web%20bicicle/bicicletas/bicicletas%20de%20monta%C3%B1a/bicicleta_monta%C3%B1a_2_xfsbkg.png",
+     "marca":"focus",
+     "categoria":"montaña",
+     "description":" Dominio en terrenos accidentados. Construcción robusta y suspensión de respuesta rápida para enfrentar obstáculos con destreza.",
+     "precio":13400,
+     "cantidad":1
+   },
+   {
+     "id":13,
+     "modelo":"TrailBlitz T300",
+     "imagen":"https://res.cloudinary.com/cede-o/image/upload/v1691246270/web%20bicicle/bicicletas/bicicletas%20de%20monta%C3%B1a/bicicleta_monta%C3%B1a_1_xabish.png",
+     "marca":"yeti",
+     "categoria":"montaña",
+     "description":"Descubre nuevos caminos. Fácil de maniobrar en terrenos desafiantes, con resistencia excepcional para un rendimiento constante.",
+     "precio":21700,
+     "cantidad":1
+   },
+   {
+     "id":14,
+     "modelo":"SummitSprint S400",
+     "imagen":"https://res.cloudinary.com/cede-o/image/upload/v1691246270/web%20bicicle/bicicletas/bicicletas%20de%20monta%C3%B1a/bicicleta_monta%C3%B1a_14_utiokh.png",
+     "marca":"yeti",
+     "categoria":"montaña",
+     "description":"Velocidad y agilidad para carreras en montaña. Cuadro aerodinámico y manejo preciso, ideal para aventuras competitivas en senderos.",
+     "precio":20000,
+     "cantidad":1
+   },
+   {
+     "id":15,
+     "modelo":"XterraEdge X550",
+     "imagen":"https://res.cloudinary.com/cede-o/image/upload/v1691246270/web%20bicicle/bicicletas/bicicletas%20de%20monta%C3%B1a/bicicleta_monta%C3%B1a_15_zax9cr.png",
+     "marca":"yeti",
+     "categoria":"montaña",
+     "description":"Todo terreno de alta resistencia. Listo para enfrentar los elementos con confianza y estabilidad, proporcionando un rendimiento excepcional en cada recorrido.",
+     "precio":24500,
+     "cantidad":1
+   },
+   {
+     "id":16,
+     "modelo":"VelociSprint V900",
+     "imagen":"https://res.cloudinary.com/cede-o/image/upload/v1691248483/web%20bicicle/bicicletas/bicicletas%20profesionales/bicicleta_profesionales_1_km92mh.png",
+     "marca":"yeti",
+     "categoria":"ciclismo",
+     "description":"Velocidad máxima en las pistas. Cuadro aerodinámico y componentes ultraligeros para vencer récords con estilo.",
+     "precio":24800,
+     "cantidad":1
+   },
+   {
+     "id":17,
+     "modelo":"AeroChampion A750",
+     "imagen":"https://res.cloudinary.com/cede-o/image/upload/v1691248483/web%20bicicle/bicicletas/bicicletas%20profesionales/bicicleta_profesionales_15_layypv.png",
+     "marca":"pinarello",
+     "categoria":"ciclismo",
+     "description":"Campeona de la aerodinámica. Diseñada para conquistar contrarrelojes con precisión y velocidad imbatible.",
+     "precio":26000,
+     "cantidad":1
+   },
+   {
+     "id":18,
+     "modelo":"EnduroCharge E600",
+     "imagen":"https://res.cloudinary.com/cede-o/image/upload/v1691248482/web%20bicicle/bicicletas/bicicletas%20profesionales/bicicleta_profesionales_14_nfwecy.png",
+     "marca":"pinarello",
+     "categoria":"ciclismo",
+     "description":"Resistencia en terrenos extremos. Sistema de suspensión de alto rendimiento y geometría ajustable para dominar cualquier camino.",
+     "precio":22300,
+     "cantidad":1
+   },
+   {
+     "id":19,
+     "modelo":"TrackMaster T350",
+     "imagen":"https://res.cloudinary.com/cede-o/image/upload/v1691248482/web%20bicicle/bicicletas/bicicletas%20profesionales/bicicleta_profesionales_13_shyqc4.png",
+     "marca":"pinarello",
+     "categoria":"ciclismo",
+     "description":"Maestría en la pista. Cuadro rígido y ágil, perfecto para vueltas rápidas y maniobras precisas en la pista.",
+     "precio":21900,
+     "cantidad":1
+   },
+   {
+     "id":20,
+     "modelo":"XLRace X500",
+     "imagen":"https://res.cloudinary.com/cede-o/image/upload/v1691248482/web%20bicicle/bicicletas/bicicletas%20profesionales/bicicleta_profesionales_11_axnvir.png",
+     "marca":"pinarello",
+     "categoria":"ciclismo",
+     "description":" Extremadamente ligera y ágil. Diseñada para carreras explosivas y sprints finales que requieren máxima potencia y control.",
+     "precio":18900,
+     "cantidad":1
+   },
+   {
+     "id":21,
+     "modelo":"GranFondo G800",
+     "imagen":"https://res.cloudinary.com/cede-o/image/upload/v1691248482/web%20bicicle/bicicletas/bicicletas%20profesionales/bicicleta_profesionales_12_cn9pym.png",
+     "marca":"colnago",
+     "categoria":"ciclismo",
+     "description":"Larga distancia sin esfuerzo. Cuadro cómodo y aerodinámico con sistema de absorción de impactos para un rendimiento excepcional en carreteras extensas.",
+     "precio":38000,
+     "cantidad":1
+   },
+   {
+     "id":22,
+     "modelo":"UphillPro U650",
+     "imagen":"https://res.cloudinary.com/cede-o/image/upload/v1691248482/web%20bicicle/bicicletas/bicicletas%20profesionales/bicicleta_profesionales_10_iulyin.png",
+     "marca":"colnago",
+     "categoria":"ciclismo",
+     "description":"Dominio en ascensos desafiantes. Cuadro ultraligero y sistemas de transmisión avanzados para subir montañas con eficiencia.",
+     "precio":20450,
+     "cantidad":1
+   },
+   {
+     "id":23,
+     "modelo":"CritWarrior C450",
+     "imagen":"https://res.cloudinary.com/cede-o/image/upload/v1691248482/web%20bicicle/bicicletas/bicicletas%20profesionales/bicicleta_profesionales_9_ruwvvo.png",
+     "marca":"colnago",
+     "categoria":"ciclismo",
+     "description":" Batalla en las calles. Bicicleta de criterium ágil y maniobrable, perfecta para carreras urbanas de alta intensidad.",
+     "precio":13500,
+     "cantidad":1
+   },
+   {
+     "id":24,
+     "modelo":"TimeTrial Titan T700",
+     "imagen":"https://res.cloudinary.com/cede-o/image/upload/v1691248482/web%20bicicle/bicicletas/bicicletas%20profesionales/bicicleta_profesionales_8_b5hydx.png",
+     "marca":"colnago",
+     "categoria":"ciclismo",
+     "description":" Titanio y velocidad en uno. Diseñada para contrarreloj con geometría aerodinámica y capacidad de respuesta excepcional.",
+     "precio":16700,
+     "cantidad":1
+   },
+   {
+     "id":25,
+     "modelo":"SprintMaven S550",
+     "imagen":"https://res.cloudinary.com/cede-o/image/upload/v1691248482/web%20bicicle/bicicletas/bicicletas%20profesionales/bicicleta_profesionales_7_avbuox.png",
+     "marca":"bianchi",
+     "categoria":"ciclismo",
+     "description":"Especialista en sprints. Cuadro rígido y transmisión de alta gama para aceleraciones explosivas y finales emocionantes.",
+     "precio":32200,
+     "cantidad":1
+   },
+   {
+     "id":26,
+     "modelo":"All-Terrain Ace A850",
+     "imagen":"https://res.cloudinary.com/cede-o/image/upload/v1691248482/web%20bicicle/bicicletas/bicicletas%20profesionales/bicicleta_profesionales_5_lynn4a.png",
+     "marca":"bianchi",
+     "categoria":"ciclismo",
+     "description":"Versátil y audaz. Listo para cualquier terreno, desde carreteras hasta senderos, con sistema de suspensión adaptable.",
+     "precio":34900,
+     "cantidad":1
+   },
+   {
+     "id":27,
+     "modelo":"ProPeloton P300",
+     "imagen":"https://res.cloudinary.com/cede-o/image/upload/v1691248481/web%20bicicle/bicicletas/bicicletas%20profesionales/bicicleta_profesionales_6_mguiol.png",
+     "marca":"bianchi",
+     "categoria":"ciclismo",
+     "description":"Dominio en pelotón. Cuadro ajustable y aerodinámico, ideal para competencias de larga distancia y tácticas de equipo",
+     "precio":14700,
+     "cantidad":1
+   },
+   {
+     "id":28,
+     "modelo":"TriathlonTurbo T950",
+     "imagen":"https://res.cloudinary.com/cede-o/image/upload/v1691248481/web%20bicicle/bicicletas/bicicletas%20profesionales/bicicleta_profesionales_2_qunndv.png",
+     "marca":"bianchi",
+     "categoria":"ciclismo",
+     "description":"Turbo en triatlones. Integración aerodinámica y opciones de hidratación para arrasar en natación, ciclismo y carrera.",
+     "precio":23000,
+     "cantidad":1
+   },
+   {
+     "id":29,
+     "modelo":"UrbanBlitz U700",
+     "imagen":"https://res.cloudinary.com/cede-o/image/upload/v1691248482/web%20bicicle/bicicletas/bicicletas%20profesionales/bicicleta_profesionales_4_fnzdgm.png",
+     "marca":"raleigh",
+     "categoria":"ciclismo",
+     "description":"Velocidad urbana en su máxima expresión. Diseño ágil y manillar plano para maniobrar entre el tráfico con confianza.",
+     "precio":22300,
+     "cantidad":1
+   },
+   {
+     "id":30,
+     "modelo":"DownhillDyno D850",
+     "imagen":"https://res.cloudinary.com/cede-o/image/upload/v1691248481/web%20bicicle/bicicletas/bicicletas%20profesionales/bicicleta_profesionales_3_luhesj.png",
+     "marca":"raleigh",
+     "categoria":"ciclismo",
+     "description":"Rey del descenso. Suspensión de largo recorrido y geometría agresiva para conquistar senderos técnicos con destreza excepcional.",
+     "precio":17850,
+     "cantidad":1
+   },
+   {
+     "id":31,
+     "modelo":"ElectraVolt E900",
+     "imagen":"https://res.cloudinary.com/cede-o/image/upload/v1691249676/web%20bicicle/bicicletas/bicicletas%20el%C3%A9ctricas/bicicleta_electricas_2_xzpcub.png",
+     "marca":"raleigh",
+     "categoria":"electrica",
+     "description":"Potencia y estilo en uno. Batería de larga duración y diseño elegante para viajes eléctricos sin esfuerzo y con clase.",
+     "precio":34600,
+     "cantidad":1
+   },
+   {
+     "id":32,
+     "modelo":"VoltRide V750",
+     "imagen":"https://res.cloudinary.com/cede-o/image/upload/v1691249675/web%20bicicle/bicicletas/bicicletas%20el%C3%A9ctricas/bicicleta_electricas_1_vcg4pz.png",
+     "marca":"raleigh",
+     "categoria":"electrica",
+     "description":" Aventura eléctrica sin límites. Neumáticos todoterreno y asistencia de alta potencia para explorar terrenos diversos con facilidad.",
+     "precio":43000,
+     "cantidad":1
+   },
+   {
+     "id":33,
+     "modelo":"UrbanEon U600",
+     "imagen":"https://res.cloudinary.com/cede-o/image/upload/v1691249675/web%20bicicle/bicicletas/bicicletas%20el%C3%A9ctricas/bicicleta_electricas_14_tm3vrg.png",
+     "marca":"wilier",
+     "categoria":"electrica",
+     "description":"Movilidad urbana inteligente. Compacta y ágil, esta bicicleta eléctrica ofrece comodidad y rapidez en el tráfico de la ciudad.",
+     "precio":56700,
+     "cantidad":1
+   },
+   {
+     "id":34,
+     "modelo":"TrailEvo T850",
+     "imagen":"https://res.cloudinary.com/cede-o/image/upload/v1691249675/web%20bicicle/bicicletas/bicicletas%20el%C3%A9ctricas/bicicleta_electricas_11_tueojk.png",
+     "marca":"wilier",
+     "categoria":"electrica",
+     "description":"Dominio en senderos electrificados. Potente motor y suspensión adaptable para enfrentar terrenos desafiantes con confianza.",
+     "precio":45000,
+     "cantidad":1
+   },
+   {
+     "id":35,
+     "modelo":"CommuteX C450",
+     "imagen":"https://res.cloudinary.com/cede-o/image/upload/v1691249675/web%20bicicle/bicicletas/bicicletas%20el%C3%A9ctricas/bicicleta_electricas_12_lhh3iz.png",
+     "marca":"wilier",
+     "categoria":"electrica",
+     "description":"Viaje diario simplificado. Batería integrada y diseño ergonómico para desplazamientos cómodos y sin preocupaciones.",
+     "precio":32600,
+     "cantidad":1
+   },
+   {
+     "id":36,
+     "modelo":"EvoCargo E750",
+     "imagen":"https://res.cloudinary.com/cede-o/image/upload/v1691249675/web%20bicicle/bicicletas/bicicletas%20el%C3%A9ctricas/bicicleta_electricas_13_uhdwbc.png",
+     "marca":"wilier",
+     "categoria":"electrica",
+     "description":"Carga eléctrica versátil. Perfecta para transportar carga con eficiencia y comodidad, equipada con asistencia eléctrica para subir colinas.",
+     "precio":60000,
+     "cantidad":1
+   },
+   {
+     "id":37,
+     "modelo":"Speedster S500",
+     "imagen":"https://res.cloudinary.com/cede-o/image/upload/v1691249675/web%20bicicle/bicicletas/bicicletas%20el%C3%A9ctricas/bicicleta_electricas_7_lgpeyg.png",
+     "marca":"orbea",
+     "categoria":"electrica",
+     "description":"Velocidad eléctrica extrema. Potente motor para alcanzar velocidades impresionantes en carreteras y pistas.",
+     "precio":54500,
+     "cantidad":1
+   },
+   {
+     "id":38,
+     "modelo":"MountainSpark M800",
+     "imagen":"https://res.cloudinary.com/cede-o/image/upload/v1691249675/web%20bicicle/bicicletas/bicicletas%20el%C3%A9ctricas/bicicleta_electricas_10_yg7yv0.png",
+     "marca":"orbea",
+     "categoria":"electrica",
+     "description":" Chispa en montañas. Asistencia eléctrica en terrenos accidentados, permitiendo ascensos más rápidos y descensos controlados.",
+     "precio":23900,
+     "cantidad":1
+   },
+   {
+     "id":39,
+     "modelo":"RetroElec R650",
+     "imagen":"https://res.cloudinary.com/cede-o/image/upload/v1691249675/web%20bicicle/bicicletas/bicicletas%20el%C3%A9ctricas/bicicleta_electricas_9_zuoakz.png",
+     "marca":"orbea",
+     "categoria":"electrica",
+     "description":"Encanto clásico con tecnología moderna. Estilo vintage y motor eléctrico para paseos nostálgicos con una pizca de innovación.",
+     "precio":42100,
+     "cantidad":1
+   },
+   {
+     "id":40,
+     "modelo":"TouringFlow T700",
+     "imagen":"https://res.cloudinary.com/cede-o/image/upload/v1691249675/web%20bicicle/bicicletas/bicicletas%20el%C3%A9ctricas/bicicleta_electricas_8_ixsidb.png",
+     "marca":"orbea",
+     "categoria":"electrica",
+     "description":"Touring amplificado. Batería de alta capacidad y comodidades de viaje para exploraciones largas y placenteras.",
+     "precio":25400,
+     "cantidad":1
+   },
+   {
+     "id":41,
+     "modelo":"CityGlide C350",
+     "imagen":"https://res.cloudinary.com/cede-o/image/upload/v1691249674/web%20bicicle/bicicletas/bicicletas%20el%C3%A9ctricas/bicicleta_electricas_6_tivy6y.png",
+     "marca":"GT",
+     "categoria":"electrica",
+     "description":"Desplazamiento urbano sin esfuerzo. Compacta y ágil, ideal para recorrer la ciudad con rapidez y estilo.",
+     "precio":46700,
+     "cantidad":1
+   },
+   {
+     "id":42,
+     "modelo":"ExplorerX E550",
+     "imagen":"https://res.cloudinary.com/cede-o/image/upload/v1691249674/web%20bicicle/bicicletas/bicicletas%20el%C3%A9ctricas/bicicleta_electricas_5_oybrha.png",
+     "marca":"GT",
+     "categoria":"electrica",
+     "description":" Exploración eléctrica ilimitada. Diseñada para aventuras off-road con potencia eléctrica que te lleva más lejos.",
+     "precio":26800,
+     "cantidad":1
+   },
+   {
+     "id":43,
+     "modelo":"HybridCruiser H450",
+     "imagen":"https://res.cloudinary.com/cede-o/image/upload/v1691249674/web%20bicicle/bicicletas/bicicletas%20el%C3%A9ctricas/bicicleta_electricas_4_j1qnaw.png",
+     "marca":"GT",
+     "categoria":"electrica",
+     "description":" Crucero híbrido relajante. Estilo playero con asistencia eléctrica para paseos cómodos y tranquilos.",
+     "precio":67800,
+     "cantidad":1
+   },
+   {
+     "id":44,
+     "modelo":"XtraPower X850",
+     "imagen":"https://res.cloudinary.com/cede-o/image/upload/v1691249674/web%20bicicle/bicicletas/bicicletas%20el%C3%A9ctricas/bicicleta_electricas_3_hc5v37.png",
+     "marca":"GT",
+     "categoria":"electrica",
+     "description":"Potencia adicional para el rendimiento máximo. Motor de alto rendimiento y batería de gran capacidad para viajes de larga distancia con facilidad.",
+     "precio":21350,
+     "cantidad":1
+   },
+   {
+     "id":45,
+     "modelo":"FutureFlash F950",
+     "imagen":"https://res.cloudinary.com/cede-o/image/upload/v1691249674/web%20bicicle/bicicletas/bicicletas%20el%C3%A9ctricas/bicicleta_electricas_15_boeqti.png",
+     "marca":"giant",
+     "categoria":"electrica",
+     "description":" Diseño vanguardista, velocidad eléctrica. Forma aerodinámica y tecnología de punta para una experiencia de conducción electrificada de próxima generación.",
+     "precio":33600,
+     "cantidad":1
+   },
+   {
+     "id":46,
+     "modelo":"CityStride C600",
+     "imagen":"https://res.cloudinary.com/cede-o/image/upload/v1691244764/web%20bicicle/bicicletas/bicicletas%20urbanas/bicicleta_urbana_13_vzkqm0.png",
+     "marca":"giant",
+     "categoria":"urbana",
+     "description":" Estilo y comodidad en la ciudad. Diseño elegante con posición erguida para viajes relajados y eficientes.",
+     "precio":7800,
+     "cantidad":1
+   },
+   {
+     "id":47,
+     "modelo":"UrbanCruise U550",
+     "imagen":"https://res.cloudinary.com/cede-o/image/upload/v1691244764/web%20bicicle/bicicletas/bicicletas%20urbanas/bicicleta_urbana_14_weg656.png",
+     "marca":"giant",
+     "categoria":"urbana",
+     "description":" Crucero urbano versátil. Manejo suave y accesorios integrados para un transporte cómodo en entornos urbanos.",
+     "precio":10300,
+     "cantidad":1
+   },
+   {
+     "id":48,
+     "modelo":"MetroMover M750",
+     "imagen":"https://res.cloudinary.com/cede-o/image/upload/v1691244764/web%20bicicle/bicicletas/bicicletas%20urbanas/bicicleta_urbana_15_xurb6r.png",
+     "marca":"giant",
+     "categoria":"urbana",
+     "description":"Movilidad eficiente en la metrópolis. Compacta y ágil, perfecta para recorridos urbanos y exploración de vecindarios.",
+     "precio":11200,
+     "cantidad":1
+   },
+   {
+     "id":49,
+     "modelo":"EcoPedal E450",
+     "imagen":"https://res.cloudinary.com/cede-o/image/upload/v1691244419/web%20bicicle/bicicletas/bicicletas%20urbanas/bicicleta_urbana_12_zytjw5.png",
+     "marca":"specialiced",
+     "categoria":"urbana",
+     "description":"Sostenibilidad en cada giro. Bicicleta urbana clásica con toque moderno, ideal para desplazamientos ecológicos.",
+     "precio":12400,
+     "cantidad":1
+   },
+   {
+     "id":50,
+     "modelo":"CommuterWave C800",
+     "imagen":"https://res.cloudinary.com/cede-o/image/upload/v1691244419/web%20bicicle/bicicletas/bicicletas%20urbanas/bicicleta_urbana_11_zn4vs3.png",
+     "marca":"specialiced",
+     "categoria":"urbana",
+     "description":"Oleada de desplazamientos cómodos. Equipada con guardabarros y luces, es ideal para viajes diarios sin complicaciones.",
+     "precio":13600,
+     "cantidad":1
+   },
+   {
+     "id":51,
+     "modelo":"StreetSprint S700",
+     "imagen":"https://res.cloudinary.com/cede-o/image/upload/v1691244419/web%20bicicle/bicicletas/bicicletas%20urbanas/bicicleta_urbana_9_n2amgd.png",
+     "marca":"specialiced",
+     "categoria":"urbana",
+     "description":"Agilidad en las calles. Diseñada para maniobras urbanas rápidas y fáciles, con estilo y rendimiento excepcionales.",
+     "precio":16800,
+     "cantidad":1
+   },
+   {
+     "id":52,
+     "modelo":"TrendyTraverse T650",
+     "imagen":"https://res.cloudinary.com/cede-o/image/upload/v1691244418/web%20bicicle/bicicletas/bicicletas%20urbanas/bicicleta_urbana_10_kgzir3.png",
+     "marca":"specialiced",
+     "categoria":"urbana",
+     "description":"Explora con estilo. Diseño contemporáneo y componentes de alta calidad para aventuras urbanas excepcionales.",
+     "precio":17500,
+     "cantidad":1
+   },
+   {
+     "id":53,
+     "modelo":"EcoPed E350",
+     "imagen":"https://res.cloudinary.com/cede-o/image/upload/v1691244381/web%20bicicle/bicicletas/bicicletas%20urbanas/bicicleta_urbana_8_nqdazu.png",
+     "marca":"trek",
+     "categoria":"urbana",
+     "description":"Clásico moderno ecológico. Batería integrada y detalles vintage para viajes urbanos con conciencia ambiental.",
+     "precio":12300,
+     "cantidad":1
+   },
+   {
+     "id":54,
+     "modelo":"SwiftUrb U800",
+     "imagen":"https://res.cloudinary.com/cede-o/image/upload/v1691244365/web%20bicicle/bicicletas/bicicletas%20urbanas/bicicleta_urbana_7_ujfd25.png",
+     "marca":"trek",
+     "categoria":"urbana",
+     "description":"Rapidez y elegancia en la ciudad. Geometría ágil y diseño sofisticado para navegar por el tráfico con facilidad.",
+     "precio":13400,
+     "cantidad":1
+   },
+   {
+     "id":55,
+     "modelo":"MetroMover X M900",
+     "imagen":"https://res.cloudinary.com/cede-o/image/upload/v1691244351/web%20bicicle/bicicletas/bicicletas%20urbanas/bicicleta_urbana_6_un8kf0.png",
+     "marca":"trek",
+     "categoria":"urbana",
+     "description":"Evolución urbana. Características avanzadas como conectividad y almacenamiento para satisfacer las necesidades modernas de la ciudad.",
+     "precio":14500,
+     "cantidad":1
+   },
+   {
+     "id":56,
+     "modelo":"ClassicCity C450",
+     "imagen":"https://res.cloudinary.com/cede-o/image/upload/v1691244332/web%20bicicle/bicicletas/bicicletas%20urbanas/bicicleta_urbana_5_qlgi41.png",
+     "marca":"trek",
+     "categoria":"urbana",
+     "description":" Encanto atemporal. Estilo retro y detalles elegantes combinados con comodidad para paseos urbanos relajados.",
+     "precio":16700,
+     "cantidad":1
+   },
+   {
+     "id":57,
+     "modelo":"PedalPro P550",
+     "imagen":"https://res.cloudinary.com/cede-o/image/upload/v1691244314/web%20bicicle/bicicletas/bicicletas%20urbanas/bicicleta_urbana_4_pa9bcm.png",
+     "marca":"GT",
+     "categoria":"urbana",
+     "description":"Profesional en la ciudad. Diseño funcional y versátil, perfecto para ciclistas urbanos que buscan rendimiento y practicidad.",
+     "precio":17900,
+     "cantidad":1
+   },
+   {
+     "id":58,
+     "modelo":"UrbanGlide U700",
+     "imagen":"https://res.cloudinary.com/cede-o/image/upload/v1691244297/web%20bicicle/bicicletas/bicicletas%20urbanas/bicicleta_urbana_3_u38dzv.png",
+     "marca":"GT",
+     "categoria":"urbana",
+     "description":"Desplazamiento fluido en la urbe. Bicicleta urbana ágil y cómoda, equipada para afrontar cualquier reto urbano.",
+     "precio":14000 ,
+     "cantidad":1
+   },
+   {
+     "id":59,
+     "modelo":"SwiftShift S850",
+     "imagen":"https://res.cloudinary.com/cede-o/image/upload/v1691244276/web%20bicicle/bicicletas/bicicletas%20urbanas/bicicleta_urbana_2_othyuo.png",
+     "marca":"GT",
+     "categoria":"urbana",
+     "description":" Cambio ágil en la ciudad. Diseño moderno y transmisión de alta gama para aceleraciones rápidas y cambios suaves.",
+     "precio":15000,
+     "cantidad":1
+   },
+   {
+     "id":60,
+     "modelo":"CityChic C950",
+     "imagen":"https://res.cloudinary.com/cede-o/image/upload/v1691244247/web%20bicicle/bicicletas/bicicletas%20urbanas/bicicleta_urbana_1_fqezbv.png",
+     "marca":"GT",
+     "categoria":"urbana",
+     "description":" Elegancia en la metrópolis. Estilo y funcionalidad combinados para un transporte urbano sofisticado y sin esfuerzo.",
+     "precio":15600,
+     "cantidad":1
+   } 
+ ]

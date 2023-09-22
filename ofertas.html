@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+        <!--estilos de alerta de eventos-->
+        <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/ofertas.css">
+    <link rel="shortcut icon" href="iconos/bicicleta.ico" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RunBike - ofertas</title>
+</head>
+<body>
+
+    <nav>  
+        <h2>Run<span>Bike</span></h2>
+
+        <ul>
+            <li><a href="index.html">inicio</a></li>
+            <li><a href="ofertas.html">ofertas</a></li>
+            <li><a href="repuestos.html">repuestos</a></li>
+            <li><a href="nosotros.html">nosotros</a></li>
+        </ul>
+ 
+        <div class="btns_menu">
+            <a href="carrito.html">
+                <figure>
+                    <span class="count_list">0</span>
+                    <img src="iconos/carrito-de-compras.png" alt="" title="carrito de compras">
+                </figure>
+            </a>
+            
+         
+        </div>    
+
+        <label class="hamburger">
+            <input type="checkbox" onclick="Open_and_Close_menu_lateral(checked)">
+            <svg viewBox="0 0 32 32">
+                <path class="line line-top-bottom" d="M27 10 13 10C10.8 10 9 8.2 9 6 9 3.5 10.8 2 13 2 15.2 2 17 3.8 17 6L17 26C17 28.2 18.8 30 21 30 23.2 30 25 28.2 25 26 25 23.8 23.2 22 21 22L7 22"></path>
+                <path class="line" d="M7 16 27 16"></path>
+            </svg>
+        </label>
+
+        
+    </nav>
+    <div class="menu_desplegable">
+        <div class="container_menu_desplegable">
+            <ul>
+                    <li>
+                        <img src="iconos/hogar.png" alt="">
+                        <a href="index.html">
+                            Inicio
+                        </a>
+                    </li>
+               
+               
+                    <li>
+                        <img src="iconos/etiqueta-de-precio.png" alt="">
+                        <a href="ofertas.html">
+                            Ofertas
+                        </a>
+                    </li>
+
+               
+                    <li>
+                        <img src="iconos/herramienta-de-reparacion.png" alt="">
+                        <a href="repuestos.html">
+                            Repuestos
+                        </a>
+                    </li>
+
+               
+                    <li>
+                        <img src="iconos/grupo.png" alt="">
+                        <a href="nosotros.html">
+                            Nosotros
+                        </a>
+                    </li>
+
+                
+                    
+            </ul>
+        </div>    
+    </div>
+
+    <div class="container_detalleOferta">
+        <div class="contenido_detalles">
+            <div class="close" title="cerrar ventana" onclick="cerrar_detalle_oferta()"><h3>X</h3></div>
+
+            <img class="img_detalles_item" src="img/4260524471274_1-removebg-preview.png" alt="">
+            <div class="detalles">
+                <label>Modelo:</label>
+                <h3 class="detalles_modelo">Bicicleta modelo Clasico F-122</h3>
+                <label>Description:</label>
+                <p class="detalles_description">
+                    Buscamos no solo vender productos, sino también inspirar una conexión más profunda con
+                    la emoción y la libertad que el ciclismo puede brindar. Además, nos esforzamos por 
+                    crear una comunidad de ciclistas apasionados al organizar eventos
+                </p>
+                <label>marca:</label>
+                <h4 class="detalles_marca">raicin bition</h4>
+
+                <label>Categoria:</label>
+                <h4 class="detalles_categoria">urbana</h4>
+
+                <span>Precio:<label class="detalles_precio">17,870</label></span>
+
+                <button class="id_detalle_producto" id=""  onclick="crear_articulo(id)">
+                    añadir a carrito
+                    <img src="iconos/anadir-al-carrito.png" alt="">
+                </button>
+            </div>
+
+        </div>
+    </div>
+    <header>
+        <div class="contenido">
+            <h1>Descubre las Mejores Ofertas <br> de Bicicletas en <span>Run<span>Bike!</span></span></h1>
+            <h3>
+                Explore las diferentes categorías filtrando los resultados hasta encontrar la bicicleta ideal
+            </h3>
+            <div class="ball">
+                <img src="iconos/flecha-hacia-abajo-para-navegar.png" alt="" srcset="">
+            </div>
+
+        </div>
+        <div class="fondo_degradado"></div>
+        <video autoplay	 loop muted	poster="img/fondo_header_oferta.jpeg" src="https://res.cloudinary.com/cede-o/video/upload/v1691352115/web%20bicicle/bicicletas/video/Mi_proyecto_1_2023-08-06_15-55-47_bbuzea.webm"></video>
+        
+    </header>
+ 
+    <section class="busqueda_bicicletas">
+        <div class="slider">
+            <div class="slide-track">
+                <div class="slide">
+                    <img src="iconos/carrucer/img_carrucer_oferta_1.png"  />
+                </div>
+                <div class="slide">
+                    <img src="iconos/carrucer/img_carrucer_oferta_2.png"  />
+                </div>
+                <div class="slide">
+                    <img src="iconos/carrucer/img_carrucer_oferta_3.png"  />
+                </div>
+                <div class="slide">
+                    <img src="iconos/carrucer/img_carrucer_oferta_4.png" />
+                </div>
+                <div class="slide">
+                    <img src="iconos/carrucer/img_carrucer_oferta_5.png"  />
+                </div>
+                <div class="slide">
+                    <img src="iconos/carrucer/img_carrucer_oferta_6.png"  />
+                </div>
+                <div class="slide">
+                    <img src="iconos/carrucer/img_carrucer_oferta_7.png"  />
+                </div>
+                <div class="slide">
+                    <img src="iconos/carrucer/img_carrucer_oferta_8.png"  />
+                </div>
+                <div class="slide">
+                    <img src="iconos/carrucer/img_carrucer_oferta_9.png"  />
+                </div>
+                <div class="slide">
+                    <img src="iconos/carrucer/img_carrucer_oferta_10.png"  />
+                </div>
+                <div class="slide">
+                    <img src="iconos/carrucer/img_carrucer_oferta_11.png" />
+                </div>
+                <div class="slide">
+                    <img src="iconos/carrucer/img_carrucer_oferta_12.png"  />
+                </div>
+                <div class="slide">
+                    <img src="iconos/carrucer/img_carrucer_oferta_13.png"  />
+                </div>
+            </div>
+        </div>
+        <div class="contenido">
+            <h2>categorías populares</h2>
+            <h3>
+                En Runbike, te presentamos una amplia gama de bicicletas diseñadas para aquellos que 
+                buscan una alternativa sostenible y emocionante para moverse por la ciudad o explorar
+                la naturaleza. Encuentra la compañera perfecta para cada aventura.
+            </h3>
+        </div>
+        
+            <div class="filtro_busqueda">
+                <h3>Filtro de busqueda:</h3>
+                <div class="form">
+                    <input type="text" class="input_search" placeholder="Ingrese la marca o el modelo aqui...">
+                        <img class="btn_search_model" onclick="filter_search_name()" src="iconos/lupa (1).png" title="buscar">
+                    </input>
+                    <select class="parametro_categoria" name="" id="">
+                        <option>categoria</option>
+                        <option value="todas">todas</option>
+                        <option value="urbana">urbana</option>
+                        <option value="montaña">montaña</option>
+                        <option value="ciclismo">ciclismo</option>
+                        <option value="electrica">electrica</option>
+
+                    </select>
+
+                    <select class="parametro_marca" name="" id="" >
+                        <option >marca</option>
+                        <option value="trek" >trek</option>
+                        <option value="scott" >scott</option>
+                        <option value="focus" >focus</option>
+                        <option value="yeti" >yeti</option>
+                        <option  value="pinarello">pinarello</option>
+                        <option value="colnago" >colnago</option>
+                        <option value="bianchi">bianchi</option>
+                        <option value="raleigh" >raleigh</option>
+                        <option value="wilier" >wilier</option>
+                        <option value="orbea" >orbea</option>
+                        <option value="GT" >GT</option>
+                        <option value="giant" >giant</option>
+                        <option value="specialiced" >specialiced</option>
+
+
+                    </select>
+                    <input class="parametro_precio" type="number" name="" id="" placeholder="precio">
+
+                    <button class="btn_busquedad" title="aplicar filtro">buscar<img src="iconos/filtrar.png" ></button>
+                </div>
+            </div>
+    </section>
+
+    <section class="listado_bicicletas">
+            <div class="container_item">
+
+                <div class="card_bicicleta" >
+                    <img loading="lazy" src="https://res.cloudinary.com/cede-o/image/upload/v1691246272/web%20bicicle/bicicletas/bicicletas%20de%20monta%C3%B1a/bicicleta_monta%C3%B1a_13_jguihv.png" >
+                    <div class="caracteristica_card">
+                        <div class="caracteristica"><h4>trek </h4></div>
+                        <div class="caracteristica"><h4>montaña</h4></div>
+                    </div>
+                    <h3>RockyTrail R450</h3>
+                    <p>
+                        Ágil y robusta, ideal para terrenos escarpados. Dispone de
+                        suspensión avanzada para un viaje suave y controlado.
+                    </p>
+                    <span>Precio: <label>12,600</label></span>
+                    <button  onclick="crear_articulo(1)"><img src="iconos/anadir-al-carrito.png"  ></button>
+                </div>
+
+                <div class="card_bicicleta">
+                    <img loading="lazy" src="https://res.cloudinary.com/cede-o/image/upload/v1691246272/web%20bicicle/bicicletas/bicicletas%20de%20monta%C3%B1a/bicicleta_monta%C3%B1a_11_m5h2tg.png" alt="">
+                    <div class="caracteristica_card">
+                        <div class="caracteristica"><h4>trek</h4></div>
+                        <div class="caracteristica"><h4>montaña</h4></div>
+                    </div>
+                    <h3>TrekFlow M200</h3>
+                    <p>
+                        Resistente y versátil. Domina senderos con cambio suave y 
+                        frenado preciso, brindando confianza en cada recorrido.
+                    </p>
+                    <span>Precio: <label>14,900</label></span>
+                    <button  onclick="crear_articulo(3)"><img src="iconos/anadir-al-carrito.png" alt=""></button>
+                </div>
+
+                <div class="card_bicicleta">
+                    <img loading="lazy" src="https://res.cloudinary.com/cede-o/image/upload/v1691248483/web%20bicicle/bicicletas/bicicletas%20profesionales/bicicleta_profesionales_1_km92mh.png" alt="">
+                    <div class="caracteristica_card">
+                        <div class="caracteristica"><h4>yeti </h4></div>
+                        <div class="caracteristica"><h4>ciclismo</h4></div>
+                    </div>
+                    <h3>VelociSprint V900</h3>
+                    <p>
+                        Velocidad máxima en las pistas. Cuadro aerodinámico y 
+                        componentes ultraligeros para vencer récords con estilo.
+                    </p>
+                    <span>Precio: <label>24,800</label></span>
+                    <button  onclick="crear_articulo(16)" ><img src="iconos/anadir-al-carrito.png" alt=""></button>
+                </div>
+
+                <div class="card_bicicleta">
+                    <img loading="lazy" src="https://res.cloudinary.com/cede-o/image/upload/v1691249676/web%20bicicle/bicicletas/bicicletas%20el%C3%A9ctricas/bicicleta_electricas_2_xzpcub.png" alt="">
+                    <div class="caracteristica_card">
+                        <div class="caracteristica"><h4>raleigh</h4></div>
+                        <div class="caracteristica"><h4>electrica</h4></div>
+                    </div>
+                    <h3>ElectraVolt E900</h3>
+                    <p>
+                        Potencia y estilo en uno. Batería de larga duración y diseño 
+                        elegante para viajes eléctricos sin esfuerzo y con clase.
+                    </p>
+                    <span>Precio: <label>34,600</label></span>
+                    <button  onclick="crear_articulo(31)"><img src="iconos/anadir-al-carrito.png" alt=""></button>
+                </div>
+
+                <div class="card_bicicleta">
+                    <img loading="lazy" src="https://res.cloudinary.com/cede-o/image/upload/v1691244764/web%20bicicle/bicicletas/bicicletas%20urbanas/bicicleta_urbana_13_vzkqm0.png" alt="">
+                    <div class="caracteristica_card">
+                        <div class="caracteristica"><h4>giant</h4></div>
+                        <div class="caracteristica"><h4>urbana</h4></div>
+                    </div>
+                    <h3>CityStride C600</h3>
+                    <p>
+                        Estilo y comodidad en la ciudad. Diseño elegante con 
+                        posición erguida para viajes relajados y eficientes.
+
+                    </p>
+                    <span>Precio: <label>$7,800</label></span>
+                    <button onclick="crear_articulo(46)"><img src="iconos/anadir-al-carrito.png" alt=""></button>
+                </div>
+
+                <div class="card_bicicleta">
+                    <img loading="lazy" src="https://res.cloudinary.com/cede-o/image/upload/v1691244351/web%20bicicle/bicicletas/bicicletas%20urbanas/bicicleta_urbana_6_un8kf0.png" alt="">
+                    <div class="caracteristica_card">
+                        <div class="caracteristica"><h4>trek </h4></div>
+                        <div class="caracteristica"><h4>urbana</h4></div>
+                    </div>
+                    <h3>MetroMover X M900</h3>
+                    <p>
+                        Evolución urbana. Características avanzadas como 
+                        conectividad y almacenamiento para satisfacer las 
+                        necesidades modernas de la ciudad.
+                    </p>
+                    <span>Precio: <label>$14,500</label></span>
+                    <button onclick="crear_articulo(55)"><img src="iconos/anadir-al-carrito.png" alt=""></button>
+                </div>
+
+                <div class="card_bicicleta">
+                    <img loading="lazy" src="https://res.cloudinary.com/cede-o/image/upload/v1691244314/web%20bicicle/bicicletas/bicicletas%20urbanas/bicicleta_urbana_4_pa9bcm.png" alt="">
+                    <div class="caracteristica_card">
+                        <div class="caracteristica"><h4>GT </h4></div>
+                        <div class="caracteristica"><h4>urbana</h4></div>
+                    </div>
+                    <h3>PedalPro P550</h3>
+                    <p>
+                        Profesional en la ciudad. Diseño funcional y versátil, 
+                        perfecto para ciclistas urbanos que buscan rendimiento y 
+                        practicidad.
+                    </p>
+                    <span>Precio: <label>$17,900</label></span>
+                    <button onclick="crear_articulo(57)"><img src="iconos/anadir-al-carrito.png" alt=""></button>
+                </div>
+
+                <div class="card_bicicleta">
+                    <img loading="lazy" src="https://res.cloudinary.com/cede-o/image/upload/v1691246272/web%20bicicle/bicicletas/bicicletas%20de%20monta%C3%B1a/bicicleta_monta%C3%B1a_7_nfrjar.png" alt="">
+                    <div class="caracteristica_card">
+                        <div class="caracteristica"><h4>scott</h4></div>
+                        <div class="caracteristica"><h4>montaña</h4></div>
+                    </div>
+                    <h3>GravityGlide G300</h3>
+                    <p>
+                        Diseño agresivo para descensos audaces. Su sistema 
+                        de amortiguación superior asegura un manejo suave en 
+                        cualquier terreno desafiante.
+                    </p>
+                    <span>Precio: <label>$18,900</label></span>
+                    <button onclick="crear_articulo(5)"><img src="iconos/anadir-al-carrito.png" alt=""></button>
+                </div>
+
+                <div class="card_bicicleta">
+                    <img loading="lazy" src="https://res.cloudinary.com/cede-o/image/upload/v1691246270/web%20bicicle/bicicletas/bicicletas%20de%20monta%C3%B1a/bicicleta_monta%C3%B1a_3_zglr45.png" alt="">
+                    <div class="caracteristica_card">
+                        <div class="caracteristica"><h4>focus</h4></div>
+                        <div class="caracteristica"><h4>montaña</h4></div>
+                    </div>
+                    <h3>AlpineRush A600</h3>
+                    <p>
+                        Rendimiento alpino de élite. Ligera, ágil y lista 
+                        para conquistar altas altitudes mientras ofrece un 
+                        control excepcional.
+                    </p>
+                    <span>Precio: <label>$16,800</label></span>
+                    <button onclick="crear_articulo(10)"> <img src="iconos/anadir-al-carrito.png" alt=""></button>
+                </div>
+            </div>
+    </section>
+
+
+    <section class="ofertas">
+        <h2> <span>Ofertas</span> destacadas</h2>
+        <h3>Estas son las ofertas mas destacadas y ofertas de temporada</h3>
+        <div class="container">
+            <button class="btn_desplazamiento" id="move_left" onclick="mover_slider(id)">
+                <img src="iconos/flecha.png" alt="" srcset="">
+            </button>
+ 
+            <button class="btn_desplazamiento" id="move_right" onclick="mover_slider(id)" >
+                <img src="iconos/flecha.png" alt="" srcset="">
+            </button>
+
+            <div class="desplazamiento_ejeX">
+            <div class="card_oferta">
+                <img loading="lazy" height="70%" src="https://res.cloudinary.com/cede-o/image/upload/v1691246272/web%20bicicle/bicicletas/bicicletas%20de%20monta%C3%B1a/bicicleta_monta%C3%B1a_11_m5h2tg.png" alt="">
+                <h3>TrekFlow M200</h3>
+                <span>Precio: <label>14,900</label></span>
+                <br>
+                <button class="btn_oferta_informacion" id="3" onclick="abrir_Detalle_oferta(id)">ver mas</button>
+                <button class="btn_oferta_agregar" onclick="crear_articulo(3)" >
+                    añadir a carrito
+                    <img src="iconos/anadir-al-carrito.png" >
+                </button>
+            </div>
+
+            <div class="card_oferta">
+                <img loading="lazy" src="https://res.cloudinary.com/cede-o/image/upload/v1691246271/web%20bicicle/bicicletas/bicicletas%20de%20monta%C3%B1a/bicicleta_monta%C3%B1a_10_ruravg.png" alt="">
+                <h3>BlazeCrest B550</h3>
+                <span>Precio: <label>17,300</label></span>
+                <br>
+                <button class="btn_oferta_informacion" id="7" onclick="abrir_Detalle_oferta(id)">ver mas</button>
+                <button class="btn_oferta_agregar" onclick="crear_articulo(7)">
+                    añadir a carrito
+                    <img src="iconos/anadir-al-carrito.png" >
+                </button>
+            </div>
+
+            <div class="card_oferta">
+                <img loading="lazy" src="https://res.cloudinary.com/cede-o/image/upload/v1691246271/web%20bicicle/bicicletas/bicicletas%20de%20monta%C3%B1a/bicicleta_monta%C3%B1a_6_idlof2.png" alt="">
+                <h3>ZenithPeak Z800</h3>
+                <span>Precio: <label>13,700</label></span>
+                <br>
+                <button class="btn_oferta_informacion" id="8" onclick="abrir_Detalle_oferta(id)">ver mas</button>
+                <button class="btn_oferta_agregar" onclick="crear_articulo(8)">
+                    añadir a carrito
+                    <img src="iconos/anadir-al-carrito.png" >
+                </button>
+            </div>
+
+            <div class="card_oferta">
+                <img loading="lazy" src="https://res.cloudinary.com/cede-o/image/upload/v1691246271/web%20bicicle/bicicletas/bicicletas%20de%20monta%C3%B1a/bicicleta_monta%C3%B1a_5_gawb1w.png" alt="">
+                <h3>ElementEvo E350</h3>
+                <span>Precio: <label>19,000</label></span>
+                <br>
+                <button class="btn_oferta_informacion" id="9" onclick="abrir_Detalle_oferta(id)">ver mas</button>
+                <button class="btn_oferta_agregar" onclick="crear_articulo(9)">
+                    añadir a carrito
+                    <img src="iconos/anadir-al-carrito.png" >
+                </button>
+            </div>
+
+            <div class="card_oferta">
+                <img loading="lazy"  src="https://res.cloudinary.com/cede-o/image/upload/v1691248483/web%20bicicle/bicicletas/bicicletas%20profesionales/bicicleta_profesionales_15_layypv.png" alt="">
+                <h3>AeroChampion A750</h3>
+                <span>Precio: <label>26,000</label></span>
+                <br>
+                <button class="btn_oferta_informacion" id="17" onclick="abrir_Detalle_oferta(id)">ver mas</button>
+                <button class="btn_oferta_agregar" onclick="crear_articulo(17)">
+                    añadir a carrito
+                    <img src="iconos/anadir-al-carrito.png" >
+                </button>
+            </div>
+
+            <div class="card_oferta">
+                <img loading="lazy" src="https://res.cloudinary.com/cede-o/image/upload/v1691249675/web%20bicicle/bicicletas/bicicletas%20el%C3%A9ctricas/bicicleta_electricas_9_zuoakz.png" alt="">
+                <h3>RetroElec R650</h3>
+                <span>Precio: <label>42,100</label></span>
+                <br>
+                <button class="btn_oferta_informacion" id="39" onclick="abrir_Detalle_oferta(id)">ver mas</button>
+                <button class="btn_oferta_agregar" onclick="crear_articulo(39)">
+                    añadir a carrito
+                    <img src="iconos/anadir-al-carrito.png" >
+                </button>
+            </div>
+            </div>
+           
+        </div>
+ 
+    </section>
+
+
+    <footer>
+        <div class="informaciones">
+            <h2>Run<span>Bike</span></h2>
+            <p>
+                RunBike es una apasionante empresa dedicada a la venta de bicicletas y piezas de alta calidad, 
+                enfocada en proporcionar a nuestros clientes una experiencia excepcional en el mundo del ciclismo.
+            </p>
+            <div class="redes">
+                <img src="iconos/icono_facebook.png" alt="">
+                <img src="iconos/instagram.png" alt="">
+                <img src="iconos/logotipo-de-pinterest.png" alt="">
+            </div>
+        </div>
+
+        <div class="enlaces">
+            <ul class="mapaWeb">
+                <li>Mapa del sitio</li>
+                <hr>
+                <li><a href="">Inicio</a></li>
+                <li><a href="">Ofertas</a></li>
+                <li><a href="">Repuestos</a></li>
+                <li><a href="">Nosotros</a></li>
+            </ul>
+            <ul class="servicio">
+                <li>Servicio</li>
+                <hr>
+                <li>Servicio al cliente</li>
+                <li>Envios nacionales</li>
+                <li>Devoluciones</li>
+            </ul>
+            <ul class="contacto">
+                <li>Contactos</li>
+                <hr>
+                <li><img src="iconos/telefono.png" alt=""> <span>809-0000-000</span></li>
+                <li><img src="iconos/correo-electronico.png" alt=""><span>info@runbike.com</span></li>
+            </ul>
+        </div>  
+      </footer>
+
+      <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+
+      <script src="js/carrito.js"></script>
+      <script src="js/oferta.js"></script>
+      <script src="js/index.js"></script>
+</body> 
+</html>

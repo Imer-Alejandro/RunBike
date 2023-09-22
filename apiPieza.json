@@ -1,0 +1,523 @@
+[ 
+  {
+    "id":1,
+    "modelo":"cadena de acero bike200",
+    "imagen":"https://res.cloudinary.com/cede-o/image/upload/v1692898924/web%20bicicle/piezas/img_repuesto_19_xux6rv.png",
+    "marca":"chain reaction",
+    "categoria":"cadenas",
+    "description":" Con su durabilidad excepcional y resistencia a la corrosión, esta cadena garantiza un rendimiento suave y confiable en cualquier terreno.",
+    "precio":1200,
+    "cantidad":1
+  },
+  {
+    "id":2,
+    "modelo":"guarda logo chain-1234",
+    "imagen":"https://res.cloudinary.com/cede-o/image/upload/v1692898924/web%20bicicle/piezas/img_repuesto_28_fnbioo.png",
+    "marca":"chain reaction",
+    "categoria":"accesorio",
+    "description":"Fabricado con materiales de alta calidad, este guarda cadena brinda una sólida protección contra suciedad y salpicaduras ",
+    "precio":850,
+    "cantidad":1
+  },
+  {
+    "id":3,
+    "modelo":"sillin ergonomico sizeX",
+    "imagen":"https://res.cloudinary.com/cede-o/image/upload/v1692898924/web%20bicicle/piezas/img_repuesto_21_gh5ojp.png",
+    "marca":"chain reaction",
+    "categoria":"sillin",
+    "description":" Su diseño anatómico y acolchado de alta densidad proporciona un soporte óptimo para tu cuerpo",
+    "precio":2000,
+    "cantidad":1
+  },
+  {
+    "id":4,
+    "modelo":"sillin raizor",
+    "imagen":"https://res.cloudinary.com/cede-o/image/upload/v1692898924/web%20bicicle/piezas/img_repuesto_20_wmdmwp.png",
+    "marca":"chain reaction",
+    "categoria":"sillin",
+    "description":" Su diseño ergonómico y acolchado de alta calidad proporciona un soporte excepcional para tus viajes largos.",
+    "precio":2350,
+    "cantidad":1
+  },
+  {
+    "id":5,
+    "modelo":"sistema de cambios cyclindal200",
+    "imagen":"https://res.cloudinary.com/cede-o/image/upload/v1692898923/web%20bicicle/piezas/img_repuesto_22_hq1ddc.png",
+    "marca":"cyclindeal",
+    "categoria":"cambios",
+    "description":"  Diseñado con precisión y fabricado con materiales de alta calidad, este sistema de cambios ofrece una transición suave y precisa entre velocidades",
+    "precio":3400,
+    "cantidad":1
+  },
+  {
+    "id":6,
+    "modelo":"cambios de 7 tiempos rodeus",
+    "imagen":"https://res.cloudinary.com/cede-o/image/upload/v1692898923/web%20bicicle/piezas/img_repuesto_23_cyy1bp.png",
+    "marca":"cyclindeal",
+    "categoria":"cambios",
+    "description":" Diseñados para brindar una amplia gama de opciones de velocidad, estos cambios te permiten adaptarte fácilmente a cualquier terreno. La precisión y la suavidad de los cambios",
+    "precio":4600,
+    "cantidad":1
+  },
+  {
+    "id":7,
+    "modelo":"estereo bocina remota fanterBike20",
+    "imagen":"https://res.cloudinary.com/cede-o/image/upload/v1692898923/web%20bicicle/piezas/img_repuesto_25_aqlz5s.png",
+    "marca":"cyclindeal",
+    "categoria":"accesorio",
+    "description":" Equipado con una potente bocina y un control remoto inalámbrico, podrás disfrutar de tu música favorita mientras pedaleas. ",
+    "precio":1700,
+    "cantidad":1
+  },
+  {
+    "id":8,
+    "modelo":"bocina remota bike14",
+    "imagen":"https://res.cloudinary.com/cede-o/image/upload/v1692898923/web%20bicicle/piezas/img_repuesto_24_agvdec.png",
+    "marca":"cyclindeal",
+    "categoria":"accesorio",
+    "description":" Con su diseño compacto y control remoto inalámbrico, puedes disfrutar de tu música favorita o emitir señales de advertencia con facilidad mientras te desplazas. ",
+    "precio":1360,
+    "cantidad":1
+  },
+  {
+    "id":9,
+    "modelo":"guarda fango esson-120",
+    "imagen":"https://res.cloudinary.com/cede-o/image/upload/v1692898923/web%20bicicle/piezas/img_repuesto_27_a1xv6r.png",
+    "marca":"merlin",
+    "categoria":"accesorio",
+    "description":"Diseñado para la durabilidad y la protección, este guarda fango está hecho de materiales resistentes a la intemperie. Su instalación es sencilla y se adapta a la mayoría de las bicicletas. ",
+    "precio":640,
+    "cantidad":1
+  },
+  {
+    "id":10,
+    "modelo":"bocina pramer remota",
+    "imagen":"https://res.cloudinary.com/cede-o/image/upload/v1692898923/web%20bicicle/piezas/img_repuesto_26_frl4jq.png",
+    "marca":"merlin",
+    "categoria":"accesorio",
+    "description":" Con su diseño elegante y control remoto inalámbrico, puedes disfrutar de tu música favorita o emitir señales de advertencia de manera conveniente mientras pedaleas. ",
+    "precio":3800,
+    "cantidad":1
+  },
+  {
+    "id":11,
+    "modelo":"guarda lodo asensor",
+    "imagen":"https://res.cloudinary.com/cede-o/image/upload/v1692898923/web%20bicicle/piezas/img_repuesto_30_wpldmc.png",
+    "marca":"merlin",
+    "categoria":"accesorio",
+    "description":"es esencial para mantener tu bicicleta y ropa limpios mientras exploras. Diseñado para adaptarse a varias bicicletas, este guarda fango es fácil de instalar y duradero.  ",
+    "precio":600,
+    "cantidad":1
+  },
+  {
+    "id":12,
+    "modelo":"juego de guarda lodo trinBIke",
+    "imagen":"https://res.cloudinary.com/cede-o/image/upload/v1692898922/web%20bicicle/piezas/img_repuesto_29_tnv08d.png",
+    "marca":"merlin",
+    "categoria":"accesorio",
+    "description":" es la elección perfecta para mantener tu bicicleta limpia y protegida de salpicaduras y suciedad. Diseñado para adaptarse a varias bicicletas, este juego de guardabarros es fácil de instalar y duradero. ",
+    "precio":1100,
+    "cantidad":1
+  },
+  {
+    "id":13,
+    "modelo":"gomas aereoStaty-x90",
+    "imagen":"https://res.cloudinary.com/cede-o/image/upload/v1692898922/web%20bicicle/piezas/img_repuesto_34_wstmle.png",
+    "marca":"jensonUSA",
+    "categoria":"gomas",
+    "description":"Fabricadas con materiales de alta calidad, estas gomas ofrecen un agarre superior en terrenos variados, desde senderos empinados hasta terrenos rocosos.  ",
+    "precio":2000,
+    "cantidad":1
+  },
+  {
+    "id":14,
+    "modelo":"cubre gomas interno X-020",
+    "imagen":"https://res.cloudinary.com/cede-o/image/upload/v1692898922/web%20bicicle/piezas/img_repuesto_31_u6llpb.png",
+    "marca":"jensonUSA",
+    "categoria":"accesorio",
+    "description":"Fabricados con materiales resistentes y duraderos, estos cubre gomas proporcionan una capa adicional de protección contra pinchazos y desgaste. Su diseño ajustable y fácil instalación los hace ideales para una variedad de bicicletas. ",
+    "precio":1900,
+    "cantidad":1
+  },
+  {
+    "id":15,
+    "modelo":"cubre gomas nikel_x015",
+    "imagen":"https://res.cloudinary.com/cede-o/image/upload/v1692898922/web%20bicicle/piezas/img_repuesto_32_sbk363.png",
+    "marca":"jensonUSA",
+    "categoria":"accesorio",
+    "description":"  Fabricados con materiales de alta calidad y diseñados para adaptarse a varios tamaños de ruedas, estos cubre gomas proporcionan una protección efectiva contra pinchazos y desgaste. ",
+    "precio":3500,
+    "cantidad":1
+  },
+  {
+    "id":16,
+    "modelo":"juego de aros estatyBike",
+    "imagen":"https://res.cloudinary.com/cede-o/image/upload/v1692898922/web%20bicicle/piezas/img_repuesto_33_j6atpo.png",
+    "marca":"jensonUSA",
+    "categoria":"gomas",
+    "description":"  Diseñados para adaptarse a una variedad de bicicletas, estos aros mejoran la resistencia y la estabilidad de tus ruedas, proporcionándote un viaje suave y eficiente. ",
+    "precio":1500,
+    "cantidad":1
+  },
+  {
+    "id":17,
+    "modelo":"goma estandar sandarBike_x290",
+    "imagen":"https://res.cloudinary.com/cede-o/image/upload/v1692898922/web%20bicicle/piezas/img_repuesto_35_cqxjlp.png",
+    "marca":"planet cycles",
+    "categoria":"gomas",
+    "description":" Fabricadas con caucho de alta calidad y diseñadas para adaptarse a diversas bicicletas, estas gomas ofrecen un rendimiento confiable en una variedad de terrenos.  que buscan calidad y versatilidad. ",
+    "precio":2300,
+    "cantidad":1
+  },
+  {
+    "id":18,
+    "modelo":"aro bike_xl02",
+    "imagen":"https://res.cloudinary.com/cede-o/image/upload/v1692898922/web%20bicicle/piezas/img_repuesto_36_pcb7n4.png",
+    "marca":"planet cycles",
+    "categoria":"gomas",
+    "description":"Fabricado con materiales de alta calidad y diseñado para una variedad de aplicaciones, este aro ofrece una combinación óptima de durabilidad y ligereza.",
+    "precio":1600,
+    "cantidad":1
+  },
+  {
+    "id":19,
+    "modelo":"timon 20 GT estandar bmx",
+    "imagen":"https://res.cloudinary.com/cede-o/image/upload/v1692898922/web%20bicicle/piezas/img_repuesto_38_kickxy.png",
+    "marca":"planet cycles",
+    "categoria":"marco",
+    "description":" Fabricado con materiales resistentes, te brinda la confianza para realizar trucos y giros audaces en el parque o en la pista.",
+    "precio":4300,
+    "cantidad":1
+  },
+  {
+    "id":20,
+    "modelo":"manubrio estandar bike_GT",
+    "imagen":"https://res.cloudinary.com/cede-o/image/upload/v1692898921/web%20bicicle/piezas/img_repuesto_40_bsbwxu.png",
+    "marca":"planet cycles",
+    "categoria":"marco",
+    "description":"  Fabricado con materiales resistentes, te brinda un control excepcional y una experiencia de conducción suave. Ya sea para paseos en la ciudad o aventuras en la montaña, el manubrio estándar Bike GT es la elección confiable de ciclistas de todos los niveles. Añade estilo y rendimiento a tu bicicleta con este componente de calidad",
+    "precio":5600,
+    "cantidad":1
+  },
+  {
+    "id":21,
+    "modelo":"manilla de bmx_delux",
+    "imagen":"https://res.cloudinary.com/cede-o/image/upload/v1692898921/web%20bicicle/piezas/img_repuesto_37_jp6d66.png",
+    "marca":"rei coop",
+    "categoria":"marco",
+    "description":" . Diseñada con precisión y fabricada con materiales de primera calidad, esta manilla ofrece un control superior en cada truco y giro. Su diseño ergonómico y resistente a los impactos garantiza un agarre cómodo y una durabilidad excepcional. ",
+    "precio":1300,
+    "cantidad":1
+  },
+  {
+    "id":22,
+    "modelo":"gomas aero_bike",
+    "imagen":"https://res.cloudinary.com/cede-o/image/upload/v1692898920/web%20bicicle/piezas/img_repuesto_39_xz2l2y.png",
+    "marca":"rei coop",
+    "categoria":"gomas",
+    "description":"  agarre excepcional y resistencia a la rodadura. Diseñadas para ciclistas exigentes, ofrecen un rendimiento superior en todo tipo de terrenos.",
+    "precio":3670,
+    "cantidad":1
+  },
+  {
+    "id":23,
+    "modelo":"orquilla estandar aero_bike",
+    "imagen":"https://res.cloudinary.com/cede-o/image/upload/v1692898920/web%20bicicle/piezas/img_repuesto_43_gxze5i.png",
+    "marca":"rei coop",
+    "categoria":"marco",
+    "description":" La orquilla estándar Aero_Bike es una obra de ingeniería que equilibra peso y resistencia. Diseñada para ciclistas apasionados, ofrece control y comodidad en cada recorrido.",
+    "precio":7800,
+    "cantidad":1
+  },
+  {
+    "id":24,
+    "modelo":"orquilla ciclismo ",
+    "imagen":"https://res.cloudinary.com/cede-o/image/upload/v1692898920/web%20bicicle/piezas/img_repuesto_41_ldbu1w.png",
+    "marca":"rei coop",
+    "categoria":"marco",
+    "description":" La orquilla de ciclismo es un componente esencial que mejora la absorción de impactos y la estabilidad en la bicicleta. ",
+    "precio":1500,
+    "cantidad":1
+  },
+  {
+    "id":25,
+    "modelo":"chasis de carbono",
+    "imagen":"https://res.cloudinary.com/cede-o/image/upload/v1692898920/web%20bicicle/piezas/img_repuesto_44_gfx2qk.png",
+    "marca":"west biking",
+    "categoria":"marco",
+    "description":" El chasis de carbono es la columna vertebral de la bicicleta, combinando ligereza y resistencia. ",
+    "precio":6700,
+    "cantidad":1
+  },
+  {
+    "id":26,
+    "modelo":"timon plano de ciclismo",
+    "imagen":"https://res.cloudinary.com/cede-o/image/upload/v1692898920/web%20bicicle/piezas/img_repuesto_42_yehjfz.png",
+    "marca":"west biking",
+    "categoria":"marco",
+    "description":" El timón plano de ciclismo es una elección aerodinámica para ciclistas que buscan velocidad y comodidad. Su diseño de perfil bajo minimiza la resistencia al viento, lo que te permite cortar el aire con facilidad mientras mantienes una posición ergonómica para una conducción más eficiente y aerodinámica.",
+    "precio":2900,
+    "cantidad":1
+  },
+  {
+    "id":27,
+    "modelo":"bateria bike_remote",
+    "imagen":"https://res.cloudinary.com/cede-o/image/upload/v1692898919/web%20bicicle/piezas/img_repuesto_48_ggqa72.png",
+    "marca":"west biking",
+    "categoria":"accesorio",
+    "description":" La batería Bike_Remote es una fuente de energía confiable para tu control remoto en la bicicleta. Diseñada para una larga duración, esta batería te permite controlar tu bicicleta eléctrica ",
+    "precio":8300,
+    "cantidad":1
+  },
+  {
+    "id":28,
+    "modelo":"pedales estandar bike_BMX",
+    "imagen":"https://res.cloudinary.com/cede-o/image/upload/v1692898919/web%20bicicle/piezas/img_repuesto_45_lqkz0g.png",
+    "marca":"west biking",
+    "categoria":"pedales",
+    "description":" Los pedales estándar Bike_BMX son robustos y confiables, diseñados para resistir el uso extremo en bicicletas BMX. Con una plataforma ancha y pines de agarre, proporcionan un control óptimo ",
+    "precio":3100,
+    "cantidad":1
+  },
+  {
+    "id":29,
+    "modelo":"pedal carbono xl_w021",
+    "imagen":"https://res.cloudinary.com/cede-o/image/upload/v1692898919/web%20bicicle/piezas/img_repuesto_46_zuugrg.png",
+    "marca":"bike discount",
+    "categoria":"pedales",
+    "description":" Los pedales de carbono XL_W021 son un componente de alto rendimiento para ciclistas exigentes. Fabricados con materiales de carbono de calidad superior, estos pedales son ultraligeros y duraderos. Ofrecen una excelente transferencia de potencia y una plataforma de apoyo amplia para una eficiencia máxima en cada pedalada.",
+    "precio":2000,
+    "cantidad":1
+  },
+  {
+    "id":30,
+    "modelo":"marco de titanio",
+    "imagen":"https://res.cloudinary.com/cede-o/image/upload/v1692898919/web%20bicicle/piezas/img_repuesto_47_rmpnve.png",
+    "marca":"bike discount",
+    "categoria":"marco",
+    "description":" El marco de titanio es la esencia de la calidad y la durabilidad en una bicicleta. Forjado con titanio de alta calidad, este marco combina una resistencia excepcional con un peso ligero. Ofrece un paseo suave y una increíble capacidad de absorción de impactos, lo que lo convierte en la elección perfecta ",
+    "precio":12400,
+    "cantidad":1
+  }
+  ,
+  {
+    "id":31,
+    "modelo":"pedales ciclismo XVW_2039",
+    "imagen":"https://res.cloudinary.com/cede-o/image/upload/v1692898919/web%20bicicle/piezas/img_repuesto_53_gzigz0.png",
+    "marca":"bike discount",
+    "categoria":"pedales",
+    "description":" Los pedales de ciclismo XVW_2039 son una elección de primera clase para ciclistas que buscan un rendimiento excepcional. Diseñados para una transferencia de potencia óptima, estos pedales ofrecen una plataforma amplia y una construcción robusta. ",
+    "precio":1700,
+    "cantidad":1
+  }
+  ,
+  {
+    "id":32,
+    "modelo":"marco de fibra bike_401",
+    "imagen":"https://res.cloudinary.com/cede-o/image/upload/v1692898919/web%20bicicle/piezas/img_repuesto_49_jovvji.png",
+    "marca":"bike discount",
+    "categoria":"marco",
+    "description":" El marco de fibra Bike_401 es la combinación perfecta de ligereza y resistencia. Fabricado con fibra de carbono de alta calidad, este marco ofrece un peso reducido sin comprometer la durabilidad. Diseñado para una conducción ágil y reactiva, proporciona una experiencia de ciclismo excepcional en terrenos variados.",
+    "precio":14500,
+    "cantidad":1
+  }
+  ,
+  {
+    "id":33,
+    "modelo":"bateria wason_Letrict",
+    "imagen":"https://res.cloudinary.com/cede-o/image/upload/v1692898918/web%20bicicle/piezas/img_repuesto_50_mlnlhq.png",
+    "marca":"wiggle",
+    "categoria":"accesorio",
+    "description":" La batería es un componente esencial para tu bicicleta eléctrica. Diseñada para ofrecer una excelente autonomía y rendimiento, esta batería te permite disfrutar de largos paseos sin preocuparte por quedarte sin energía. ",
+    "precio":6900,
+    "cantidad":1
+  }
+  ,
+  {
+    "id":34,
+    "modelo":"bateria raptor_bike",
+    "imagen":"https://res.cloudinary.com/cede-o/image/upload/v1692898918/web%20bicicle/piezas/img_repuesto_51_ouijkg.png",
+    "marca":"wiggle",
+    "categoria":"accesorio",
+    "description":" Diseñada para brindar un rendimiento óptimo, esta batería ofrece una excelente autonomía y potencia. Su durabilidad y capacidad de recarga la convierten en una elección ideal para mantener tu bicicleta eléctrica en funcionamiento durante tus aventuras en dos ruedas. ",
+    "precio":980,
+    "cantidad":1
+  }
+  ,
+  {
+    "id":35,
+    "modelo":"marco de fibra de vidrio",
+    "imagen":"https://res.cloudinary.com/cede-o/image/upload/v1692898918/web%20bicicle/piezas/img_repuesto_52_aqegsp.png",
+    "marca":"wiggle",
+    "categoria":"marco",
+    "description":" El marco de fibra de vidrio es una elección sólida para ciclistas que buscan un equilibrio entre durabilidad y peso ligero. Fabricado con fibra de vidrio de alta calidad, este marco ofrece resistencia y rigidez, lo que se traduce en una conducción eficiente",
+    "precio":13400,
+    "cantidad":1
+  }
+  ,
+  {
+    "id":36,
+    "modelo":"pedales aro20_BMX",
+    "imagen":"https://res.cloudinary.com/cede-o/image/upload/v1692898918/web%20bicicle/piezas/img_repuesto_1_pm3x5g.png",
+    "marca":"wiggle",
+    "categoria":"pedales",
+    "description":" Con una plataforma robusta y pines reemplazables para un mejor agarre, estos pedales ofrecen una excelente tracción para realizar trucos y maniobras. Su construcción resistente los hace capaces de resistir el uso intensivo y los impactos que caracterizan al BMX.",
+    "precio":1000,
+    "cantidad":1
+  }
+  ,
+  {
+    "id":37,
+    "modelo":"juego de frenos rent_bike",
+    "imagen":"https://res.cloudinary.com/cede-o/image/upload/v1692898917/web%20bicicle/piezas/img_repuesto_2_q13e1q.png",
+    "marca":"competitive cyclist",
+    "categoria":"frenos",
+    "description":" Diseñado para ofrecer un control óptimo, este juego de frenos proporciona una potente capacidad de frenado, lo que te permite detenerte de manera segura en diversas condiciones.",
+    "precio":3600,
+    "cantidad":1
+  }
+  ,
+  {
+    "id":38,
+    "modelo":"frenos torpedo",
+    "imagen":"https://res.cloudinary.com/cede-o/image/upload/v1692898917/web%20bicicle/piezas/img_repuesto_3_tsk6ur.png",
+    "marca":"competitive cyclist",
+    "categoria":"frenos",
+    "description":"son una opción de frenado eficaz y duradera para bicicletas. Diseñados para proporcionar una respuesta rápida y una potente capacidad de frenado, estos frenos son ideales para mantener el control en diversas situaciones.  ",
+    "precio":1700,
+    "cantidad":1
+  }
+  ,
+  {
+    "id":39,
+    "modelo":"frenos de carbono_BMX ",
+    "imagen":"https://res.cloudinary.com/cede-o/image/upload/v1692898917/web%20bicicle/piezas/img_repuesto_5_yyyfi4.png",
+    "marca":"competitive cyclist",
+    "categoria":"frenos",
+    "description":" son una elección de alto rendimiento para los ciclistas que buscan un frenado preciso y ligero. Fabricados con material de carbono de alta calidad, estos frenos ofrecen una excelente potencia de frenado sin añadir peso innecesario a la bicicleta.  ",
+    "precio":4000,
+    "cantidad":1
+  }
+  ,
+  {
+    "id":40,
+    "modelo":"pedal de hierro y fibra",
+    "imagen":"https://res.cloudinary.com/cede-o/image/upload/v1692898917/web%20bicicle/piezas/img_repuesto_6_bqfsw5.png",
+    "marca":"competitive cyclist",
+    "categoria":"pedales",
+    "description":" Con una base de hierro resistente y una plataforma de fibra de alta calidad, estos pedales ofrecen un excelente equilibrio entre fuerza y peso. Proporcionan una plataforma de apoyo confiable ",
+    "precio":5600,
+    "cantidad":1
+  }
+  ,
+  {
+    "id":41,
+    "modelo":"frenos reforzados",
+    "imagen":"https://res.cloudinary.com/cede-o/image/upload/v1692898917/web%20bicicle/piezas/img_repuesto_7_sqb9gr.png",
+    "marca":"bike24",
+    "categoria":"frenos",
+    "description":" Los frenos reforzados son una mejora importante en términos de seguridad y rendimiento en bicicletas. Estos frenos están diseñados para ser más resistentes  ",
+    "precio":2500,
+    "cantidad":1
+  }
+  ,
+  {
+    "id":42,
+    "modelo":"juego de freno y disco",
+    "imagen":"https://res.cloudinary.com/cede-o/image/upload/v1692898917/web%20bicicle/piezas/img_repuesto_4_t4yitp.png",
+    "marca":"bike24",
+    "categoria":"frenos",
+    "description":"   Los discos de freno pueden ser de diferentes tamaños y tipos, como discos de freno de disco hidráulicos o mecánicos. ",
+    "precio":4000,
+    "cantidad":1
+  }
+  ,
+  {
+    "id":43,
+    "modelo":"frenos de fibra y aluminio",
+    "imagen":"https://res.cloudinary.com/cede-o/image/upload/v1692898916/web%20bicicle/piezas/img_repuesto_9_bfqjob.png",
+    "marca":"bike24",
+    "categoria":"frenos",
+    "description":"  Los frenos de fibra y aluminio son el epítome de la potencia y la ligereza. Su combinación única ofrece un frenado preciso",
+    "precio":3200,
+    "cantidad":1
+  }
+  ,
+  {
+    "id":44,
+    "modelo":"cadena de bike_BMX aro 20",
+    "imagen":"https://res.cloudinary.com/cede-o/image/upload/v1692898916/web%20bicicle/piezas/img_repuesto_14_z3a8vf.png",
+    "marca":"bike24",
+    "categoria":"cadenas",
+    "description":" La cadena de bike_BMX aro 20 es resistente y confiable. Diseñada para soportar las demandas del BMX ",
+    "precio":1300,
+    "cantidad":1
+  }
+  ,
+  {
+    "id":45,
+    "modelo":"pedales plasticos estandar",
+    "imagen":"https://res.cloudinary.com/cede-o/image/upload/v1692898916/web%20bicicle/piezas/img_repuesto_10_ckvfdb.png",
+    "marca":"bike24",
+    "categoria":"pedales",
+    "description":" Los pedales estándar de plástico son una opción liviana y resistente. Diseñados para durar, ofrecen un agarre seguro y son ideales para una variedad de estilos de ciclismo ",
+    "precio":500,
+    "cantidad":1
+  }
+  ,
+  {
+    "id":46,
+    "modelo":"sistema de frenos y discos torpedo",
+    "imagen":"https://res.cloudinary.com/cede-o/image/upload/v1692898916/web%20bicicle/piezas/img_repuesto_8_uhnp7r.png",
+    "marca":"performance bike",
+    "categoria":"frenos",
+    "description":"  El sistema de frenos y discos 'Torpedo' es sinónimo de potencia de frenado superior. Con discos robustos y frenos de alta calidad, proporciona un control excepcional ",
+    "precio":7000,
+    "cantidad":1
+  }
+  ,
+  {
+    "id":47,
+    "modelo":"sillin de tela y espuma",
+    "imagen":"https://res.cloudinary.com/cede-o/image/upload/v1692898915/web%20bicicle/piezas/img_repuesto_12_p8liaa.png",
+    "marca":"performance bike",
+    "categoria":"sillin",
+    "description":"  El sillín de tela y espuma ofrece comodidad y durabilidad. Su diseño ergonómico y acolchado de espuma proporciona un soporte suave durante largos paseos en bicicleta. ",
+    "precio":1800,
+    "cantidad":1
+  }
+  ,
+  {
+    "id":48,
+    "modelo":"sillin acolchado",
+    "imagen":"https://res.cloudinary.com/cede-o/image/upload/v1692898915/web%20bicicle/piezas/img_repuesto_11_en7dzg.png",
+    "marca":"performance bike",
+    "categoria":"sillin",
+    "description":" El sillín acolchado es la elección perfecta para un viaje cómodo. Con un diseño ergonómico y un acolchado suave, te brinda un asiento indulgente para tus paseos en bicicleta. ",
+    "precio":2300,
+    "cantidad":1
+  }
+  ,
+  {
+    "id":49,
+    "modelo":"juego de montaje de cadena",
+    "imagen":"https://res.cloudinary.com/cede-o/image/upload/v1692898915/web%20bicicle/piezas/img_repuesto_17_n7jmw8.png",
+    "marca":"performance bike",
+    "categoria":"cadenas",
+    "description":"  El juego de montaje de cadena es esencial para mantener tu bicicleta en movimiento. Con herramientas de calidad y accesorios, facilita la instalación  ",
+    "precio":2000,
+    "cantidad":1
+  }
+  ,
+  {
+    "id":50,
+    "modelo":"frenos estandar bike_montain",
+    "imagen":"https://res.cloudinary.com/cede-o/image/upload/v1692898915/web%20bicicle/piezas/img_repuesto_18_rpl2w4.png",
+    "marca":"performance bike",
+    "categoria":"frenos",
+    "description":"  Los frenos estándar Bike_Mountain ofrecen un frenado confiable y duradero en terrenos accidentados. Diseñados para adaptarse a las demandas del ciclismo de montaña",
+    "precio":900,
+    "cantidad":1
+  }
+  
+]
