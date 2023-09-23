@@ -1,7 +1,7 @@
 //carrito
 function crear_articulo(id) {
 
-    fetch('/output.json')
+    fetch('./output.json')
     .then(response => response.json())
     .then(data => {
        

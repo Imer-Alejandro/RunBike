@@ -80,7 +80,7 @@ function abrir_Detalle_oferta(id) {
     //llamar a la api y cargar elemento del id 
 
     
-    fetch('../output.json')
+    fetch('./output.json')
     .then(response => {
       if (!response.ok) {
         throw new Error('Error de red o respuesta no válida');

@@ -8,7 +8,7 @@ let input_search=document.querySelector('.input_search')
 //filter search for model function
 function filter_search_name(name = input_search.value) {
 
-    fetch('/output.json')
+    fetch('./output.json')
   .then(response => response.json())
   .then(data => {
     data.forEach(element => {
@@ -52,7 +52,7 @@ function filter_search_param(marca,precio,categoria) {
     
     let lista_resultado_busquedad = []
 
-  fetch('/output.json')
+  fetch('./output.json')
   .then(response => response.json())
   .then(data => {
             data.forEach((element)=>{

@@ -8,7 +8,7 @@ let input_search=document.querySelector('.input_search')
 //filter search for model function
 function filter_search_name(name = input_search.value) {
 
-    fetch('/apiPieza.json')
+    fetch('./apiPieza.json')
   .then(response => response.json())
   .then(data => {
     data.forEach(element => {
@@ -52,7 +52,7 @@ function filter_search_param(marca,precio,categoria) {
     
     let lista_resultado_busquedad = []
 
-  fetch('/apiPieza.json')
+  fetch('./apiPieza.json')
   .then(response => response.json())
   .then(data => {
             data.forEach((element)=>{
@@ -145,7 +145,7 @@ if (document.querySelector('.btn_busquedad')) {
 //carrito
 function crear_articulo_pd(id) {
 
-    fetch('/apiPieza.json')
+    fetch('./apiPieza.json')
     .then(response => response.json())
     .then(data => {
        
@@ -212,7 +212,7 @@ function registrarProducto(producto) {
 
 function abrir_Detalle_oferta_Repuestos(id) {
     //llamar a la api y cargar elemento del id 
-    fetch('/apiPieza.json')
+    fetch('./apiPieza.json')
   .then(response => response.json())
   .then(data => {
 
