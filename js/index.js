@@ -78,29 +78,41 @@ function cerrar_detalle_oferta() {
 
 function abrir_Detalle_oferta(id) {
     //llamar a la api y cargar elemento del id 
+
+    
     fetch('/output.json')
-  .then(response => response.json())
-  .then(data => {
+    .then(response => {
+      if (!response.ok) {
+        throw new Error('Error de red o respuesta no válida');
+      }
+      return response.json(); // Parsea la respuesta como JSON
+    })
+    .then(data => {
+      // Trabaja con los datos recibidos (variable "data")
+      data.forEach(element=>{
+        if (element.id === parseInt(id)) {
+         //remplazar los valores por los del elemento del id
+         document.querySelector('.img_detalles_item').src=`${element.imagen}`
+         document.querySelector('.detalles_modelo').textContent=`${element.modelo}`
+         document.querySelector('.detalles_description').textContent=`${element.description}`
+         document.querySelector('.detalles_marca').textContent=`${element.marca}`
+         document.querySelector('.detalles_precio').textContent=`${element.precio}`
+         document.querySelector('.detalles_categoria').textContent=`${element.categoria}`
+         document.querySelector('.id_detalle_producto').id=`${element.id}`
 
-        data.forEach(element=>{
-           if (element.id === parseInt(id)) {
-            //remplazar los valores por los del elemento del id
-            document.querySelector('.img_detalles_item').src=`${element.imagen}`
-            document.querySelector('.detalles_modelo').textContent=`${element.modelo}`
-            document.querySelector('.detalles_description').textContent=`${element.description}`
-            document.querySelector('.detalles_marca').textContent=`${element.marca}`
-            document.querySelector('.detalles_precio').textContent=`${element.precio}`
-            document.querySelector('.detalles_categoria').textContent=`${element.categoria}`
-            document.querySelector('.id_detalle_producto').id=`${element.id}`
 
-
-           }
-        })
-
+        }
+     })
+    })
+    .catch(error => {
+      console.error('Error:', error);
     });
-
+    
     //mostrar ventana
     document.querySelector('.container_detalleOferta').style.display='block'
+  
+
+   
     
 }
 
